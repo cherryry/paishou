@@ -1,0 +1,129 @@
+page{
+  overflow: hidden;
+}
+.bg {
+  height: 20rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #e8e8e8;
+}
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 1rpx solid #e8e8e8;
+  text-align: center;
+  line-height: 80rpx;
+  background: #fff;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 49.5%;
+  color: #bfbfbf;
+  text-align: center;
+}
+
+.on {
+  color: #000;
+  border-left: 1rpx solid #e8e8e8;
+}
+
+.on1 {
+  color: #000;
+  border-left: 1rpx solid #e8e8e8;
+}
+
+.authText {
+  margin: 0 auto;
+  width: 60%;
+  display: inline-block;
+  font-size: 32rpx;
+  letter-spacing: 5rpx;
+}
+
+.authTextOn {
+  border-bottom: 5rpx solid #64cb97;
+  color: #000;
+}
+
+/*身份认证+商户认证  */
+
+.authBigBox {
+  width: 100%;
+
+  background-color: #ffffff;
+}
+
+.authBox {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 40rpx 0;
+}
+
+.smallBox {
+  display: inline-block;
+}
+
+.authComments {
+  display: block;
+  font-size: 30rpx;
+}
+
+.smallBg {
+  width: 30%;
+  border: 3rpx solid #64cb97;
+  display: inline-block;
+  margin: 0 5% 18%;
+}
+
+.authImg {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+
+
+.information{
+  width: 80%;
+  margin: 0 auto;
+}
+.information_text{
+  margin: 0 auto;
+  line-height: 80rpx;
+}
+.information_text .name{
+  font-size: 32rpx;
+}
+.information_text .text{
+  font-size: 32rpx;
+  color: #888888;
+}
+.information_text image{
+  width: 171rpx;
+  height: 141rpx;
+  position:absolute;
+  z-index: 9;
+  margin-top: -10px;
+  margin-left: -100rpx;
+}
+.information_id {
+  font-size: 32rpx;
+  color: #000000;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10rpx;
+   width: 100%;
+}
+.information_img{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.information_img .img_1{
+  width: 402rpx;
+  height: 584rpx;
+  text-align: center;
+  margin-top: 30rpx;
+ 
+}

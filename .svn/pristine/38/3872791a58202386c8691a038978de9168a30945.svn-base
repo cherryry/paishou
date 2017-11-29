@@ -1,0 +1,89 @@
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+ .contents{
+ text-align: center;
+ flex-direction: row;
+ display:inline-block;
+ width: 20%;
+ margin-top: 30rpx;
+ vertical-align: middle;
+}
+.contents .title{
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+.contents .img_txt{
+  width: 50rpx;
+  height: 50rpx;
+}
+.flow_line{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1rpx solid #31ad37;
+  margin: 0 auto;
+}
+
+.flow_dashed{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1rpx dashed #31ad37;
+  margin: 0 auto;
+}
+
+.Line{
+  border-bottom: 1px solid #e3e3e3;
+}
+.information{
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 28rpx;
+}
+.information text{
+  display: block;
+}
+.Amount_money{
+  text-align: center;
+  padding: 0;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.Amount_money image{
+  width: 163rpx;
+  height: 152rpx;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+.Amount_money .text_1{
+   display: block;
+   padding-top: 50rpx;
+   font-size: 28rpx;
+}
+.Amount_money .text_2{
+   display: block;
+   font-size: 50rpx;
+}
+.footer{
+  text-align: center;
+  position: relative;
+}
+.footer .footer_text1{
+  color: #566aa5;
+  display: block;
+  font-size: 32rpx;
+  position:fixed;
+  width: 88%;
+  bottom: 50rpx;
+}
+.footer .footer_text2{
+  color: #a9a9a9;
+  font-size: 28rpx;
+  position:fixed;
+  display: block;
+  width: 88%;
+  bottom: 10rpx;
+  }

@@ -1,0 +1,36 @@
+<!-- 列表 -->
+  <swiper-item class="business">
+
+  <view class='controls'>
+    <view class='cont_top'>
+      <view class='top_left'>    
+        <image class='' src='/images/icon_hot.png'></image>
+        <text>今日热门</text>
+      </view>
+      <view class='top_right'>  
+        <image src='/images/icon_find.png' bindtap='select_area'></image>
+      </view>
+    </view>
+  </view>
+
+    <view class='business_list'>
+      <view class='list_left'>
+        <image src='/images/img_portrait.png'></image>
+        <text class='list_left_text'>雅诗兰黛</text>
+      </view>
+      <view class='list_middle'>
+        <text class='middle_title'>小棕瓶系列8.8折优惠</text>
+        <view class='extension'>
+          <text class='extension_title'>推广预期：</text>
+          <text class='extension_Number'>2000人</text>
+        </view>
+        <view class='commission'>
+          <text class='commission_title'>悬赏佣金：</text>
+          <text class='commission_Number'>0.1元/人</text>
+        </view>
+      </view>
+      <view class='list_right'>
+        <button class='btn_grab' bindtap='toGrab' data-id="{{item.id}}">抢 单</button>
+      </view>
+    </view>
+  </swiper-item>

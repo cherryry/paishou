@@ -1,0 +1,183 @@
+<!--pages/business_homePage/business_homePage.wxml-->
+<view class='topBox'>
+  <view class='titleBox'>
+    <image src='/images/img_portrait.png' class='imgTitle'></image>
+    <view class='textTitle'>雅诗兰黛
+      <image src='/images/img_vip@3x.png' class='textImg'></image>
+    </view>
+  </view>
+  <view class='countBox'>
+    <view class='countTextBox'>发布数量:
+      <text class='countText'>　10</text>
+    </view>
+    <view class='countTextBox'>抢单数量:
+      <text class='countText'>　10</text>
+    </view>
+    <view class='countTextBox'>完成效率:
+      <text class='countText'>　100%</text>
+      <text class='countTextHigh'>高</text>
+    </view>
+  </view>
+</view>
+
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">发布</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">抢单</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}} mrn" data-current="1" bindtap="swichNav">商家介绍</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" bindchange="bindChange" style="height:{{winHeight - 0}}px">
+  <!--发布  -->
+  <swiper-item class="clearfix">
+    <view class='listBox'>
+      <view class='listSmallBox'>
+        <view class='imgBox'>
+          <image src='/images/banner@3x.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox'>
+          <image class='carryOutImg' src='/images/icon_carry_out.png'></image>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission'>悬赏佣金:
+            <text class='money'>0.1元/人</text>
+            <button class='btn'>抢 单</button>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='listBox'>
+      <view class='listSmallBox'>
+
+        <view class='imgBox'>
+          <image src='/images/banner@3x.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox'>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission'>悬赏佣金:
+            <text class='money'>0.1元/人</text>
+            <button class='btn btnBlock'>抢 单</button>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='listBox'>
+      <view class='listSmallBox'>
+        <view class='imgBox'>
+          <image src='/images/banner@3x.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox'>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission'>悬赏佣金:
+            <text class='money'>0.1元/人</text>
+            <button class='btn btnBlock'>抢 单</button>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <!--抢单  -->
+  <swiper-item class="clearfix">
+    <view class='listBox'>
+      <view class='listSmallBox'>
+        <view class='imgBox'>
+          <image src='/images/img_ping.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox textBox2'>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected　expected2'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission commission2'>悬赏佣金:
+            <text class='money'>100元</text>
+          </view>
+          <view class='progressBox'>
+            <view class='progress'></view>
+            <text class='progressText'>完成75%</text>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+
+     <view class='listBox'>
+      <view class='listSmallBox'>
+        <view class='imgBox'>
+          <image src='/images/img_ping.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox textBox2'>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected　expected2'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission commission2'>悬赏佣金:
+            <text class='money'>100元</text>
+          </view>
+          <view class='progressBox'>
+            <view class='progress'></view>
+            <text class='progressText'>完成75%</text>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+
+     <view class='listBox'>
+      <view class='listSmallBox'>
+        <view class='imgBox'>
+          <image src='/images/img_ping.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox textBox2'>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected　expected2'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission commission2'>悬赏佣金:
+            <text class='money'>100元</text>
+          </view>
+          <view class='progressBox'>
+            <view class='progress'></view>
+            <text class='progressText'>完成75%</text>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+     <view class='listBox'>
+      <view class='listSmallBox'>
+        <view class='imgBox'>
+          <image src='/images/img_ping.png' mode="aspectFill"></image>
+        </view>
+        <view class='textBox textBox2'>
+          <text class='introductionText'>小棕瓶系列8.8折优惠</text>
+          <view class='expected　expected2'>推广预期:
+            <text class='person'>2000人</text>
+          </view>
+          <view class='commission commission2'>悬赏佣金:
+            <text class='money'>100元</text>
+          </view>
+          <view class='progressBox'>
+            <view class='progress'></view>
+            <text class='progressText'>完成75%</text>
+          </view>
+          <view class='blank'>　</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <!--商家介绍  -->
+  <swiper-item class="clearfix">
+
+  </swiper-item>
+</swiper>

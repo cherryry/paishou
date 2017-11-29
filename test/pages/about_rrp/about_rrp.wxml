@@ -1,0 +1,19 @@
+<!--pages/about_rrp/about_rrp.wxml-->
+<view class='logoBox'>
+  <image src='/images/img_rrpLogo.png' class='logo'></image>
+  <text class='rrpText'>人人派</text>
+  <text class='version'>V1.0</text>
+</view>
+<view class='bg'></view>
+<view class='Introduction'>
+  <text class='IntroductionText'>我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍</text>
+  <text class='IntroductionText'>我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍我是公司介绍</text>
+</view>
+
+<view class='ulBox'>
+  <rich-text nodes="{{nodes1}}"> </rich-text>
+  <rich-text nodes="{{nodes2}}" bindtap='toFeedback'></rich-text>
+</view>
+<view class='Copyright'>
+  <text class='CopyrightText'>Copyright@2016-2017人人派版权所有</text>
+</view>

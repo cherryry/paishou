@@ -1,0 +1,54 @@
+.map_container{ 
+    height: 300px; 
+    width: 100%; 
+} 
+
+.map { 
+    height: 100%; 
+    width: 100%; 
+}
+
+#myMap{
+    width: 100%; 
+    position: absolute;
+    height: 100vh;
+}
+
+.btn_release{
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  right: 0;
+  padding:0 50rpx 30rpx 0 ;
+  overflow-x: hidden;
+}
+.btn_release image{
+  width: 100rpx;
+  height: 100rpx;
+  box-shadow: inset 0px 0px 30px #666;
+  border-radius: 30px;
+}
+.notice{
+  background: #000;
+  border-radius: 30rpx;
+  width: 90%;
+  margin:0 auto;
+  -moz-opacity:0.4;
+  opacity: 0.4;
+  padding: 6rpx 6rpx 16rpx 30rpx;
+  vertical-align: middle;
+  position: relative;
+  z-index: 9;
+  top:20rpx;
+}
+.notice image{
+  width: 42rpx;
+  height: 39rpx;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.notice .inform{
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+}

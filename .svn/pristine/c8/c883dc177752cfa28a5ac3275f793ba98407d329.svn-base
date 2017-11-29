@@ -1,0 +1,313 @@
+.swiper-tab {
+  width: 100%;
+  border-top: 1rpx solid #e2e2e2;
+  border-bottom: 1rpx solid #e2e2e2;
+  text-align: center;
+  height: 80rpx;
+  line-height: 76rpx;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  background: #fff;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 50%;
+  color: #777;
+  text-align: center;
+}
+
+.swiper-tab-list image {
+  width: 42rpx;
+  height: 32rpx;
+  float: right;
+  padding-top: 2rpx;
+  padding-right: 30rpx;
+  vertical-align: middle;
+}
+
+.controls {
+  position: relative;
+  top: 50%;
+  height: 30px;
+  margin-top: -15rpx;
+  display: flex;
+}
+
+.home_map{
+  width: 100%;
+  height: 100%;
+}
+
+.btn_location{
+  position: absolute;
+  z-index: 9999;
+  bottom: 20rpx;
+}
+
+.location_img {
+  position: fixed;
+  z-index: 9;
+  bottom: 200rpx;
+  display: block;
+  width: 90%;
+  left: 62rpx;
+  
+}
+
+.location_img .txt_image{
+  width: 77rpx;
+  height: 77rpx;
+}
+
+.footer {
+  position: relative;
+  top: 84%;
+  height: 100px;
+  display: flex;
+  z-index: 999;
+}
+
+.footer .news_img {
+  width: 103rpx;
+  height: 103rpx;
+  display: inline-block;
+  position: absolute;
+  left: 50rpx;
+  bottom: 55rpx;
+  z-index: 999;
+}
+
+.footer .release_img {
+  width: 163rpx;
+  height: 163rpx;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -81.5rpx;
+  position: absolute;
+  bottom: 30rpx;
+}
+
+.footer .my_img {
+  width: 103rpx;
+  height: 103rpx;
+  display: inline-block;
+  position: absolute;
+  right: 50rpx;
+  bottom: 55rpx;
+}
+
+.on {
+  color: #000;
+  border-bottom: 5rpx solid #64cb97;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 拖动地图 */
+
+.ball {
+  box-shadow: 2px 2px 10px #aaa;
+  border-radius: 20px;
+  position: absolute;
+}
+
+/* 列表 */
+.business{
+  position: relative;
+  top: 80rpx;
+  bottom: 100px;
+  overflow-y:auto;
+}
+.business_list {
+  width: 90%;
+  margin: 25rpx auto;
+  height: 180rpx;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.list_left {
+  display: inline-block;
+  width: 25%;
+}
+
+.list_left image {
+  width: 109rpx;
+  height: 109rpx;
+  display: block;
+  text-align: center;
+}
+
+.list_left text {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 26rpx;
+  font-weight: 600;
+  line-height: 60rpx;
+}
+
+.list_middle {
+  width: 53%;
+  text-align: left;
+  display: inline-block;
+}
+
+.list_middle .middle_title {
+  font-size: 30rpx;
+  font-weight: 600;
+  letter-spacing: 1rpx;
+  padding-bottom: 50rpx;  
+}
+
+.list_middle .extension { 
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.list_middle .extension .extension_title {
+  text-align: left;
+  display: inline-block;
+  color: #888;
+  padding-top: 15px;
+}
+
+.list_middle .extension .extension_Number {
+  display: inline-block;
+  color: #000;
+}
+
+.list_middle .commission {
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.list_middle .commission .commission_title {
+  display: inline-block;
+  color: #888;
+}
+
+.list_middle .commission .commission_Number {
+  display: inline-block;
+  color: #6372a9;
+}
+
+.list_right {
+  padding-top: 63rpx;
+  width: 22%;
+  display: inline-block;
+}
+
+.list_right .btn_grab {
+  font-size: 28rpx;
+  color: #6372a9;   
+  border: 1px solid #394779;
+  border-radius: 10rpx;
+  background: #fff;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.business {
+  position: relative;
+  top: 80rpx;
+  bottom: 100px;
+  overflow-y: auto;
+}
+
+.business_list {
+  width: 90%;
+  margin: 25rpx auto;
+  height: 180rpx;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.list_left {
+  display: inline-block;
+  width: 25%;
+}
+
+.list_left image {
+  width: 109rpx;
+  height: 109rpx;
+  display: block;
+  text-align: center;
+}
+
+.list_left text {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 26rpx;
+  font-weight: 600;
+  line-height: 60rpx;
+}
+
+.list_middle {
+  width: 53%;
+  text-align: left;
+  display: inline-block;
+}
+
+.list_middle .middle_title {
+  font-size: 30rpx;
+  font-weight: 600;
+  letter-spacing: 1rpx;
+  padding-bottom: 50rpx;
+}
+
+.list_middle .extension {
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.list_middle .extension .extension_title {
+  text-align: left;
+  display: inline-block;
+  color: #888;
+  padding-top: 15px;
+}
+
+.list_middle .extension .extension_Number {
+  display: inline-block;
+  color: #000;
+}
+
+.list_middle .commission {
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.list_middle .commission .commission_title {
+  display: inline-block;
+  color: #888;
+}
+
+.list_middle .commission .commission_Number {
+  display: inline-block;
+  color: #6372a9;
+}
+
+.list_right {
+  padding-top: 63rpx;
+  width: 22%;
+  display: inline-block;
+}
+
+.list_right .btn_grab {
+  font-size: 28rpx;
+  color: #6372a9;
+  border: 1px solid #394779;
+  border-radius: 10rpx;
+  background: #fff;
+  font-weight: 600;
+  line-height: 50rpx;
+}

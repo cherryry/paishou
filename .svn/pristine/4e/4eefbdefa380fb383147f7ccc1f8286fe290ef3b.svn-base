@@ -1,0 +1,76 @@
+/* pages/login/login.wxss */
+.content{
+  padding: 0;
+  margin: 0 auto;
+}
+.banner image{
+  width: 100%;
+  height: 320rpx;
+}
+.section{
+  width: 90%;
+  margin: 0 auto;
+  vertical-align: middle;
+  margin-top: 15%;
+}
+.section image{
+  width: 58rpx;
+  height: 58rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.section .mobile_phone{
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1rpx solid #888888;
+  width: 86%;
+  font-size: 30rpx;
+}
+.sections{
+  width: 90%;
+  margin: 0 auto;
+  vertical-align: middle;
+  margin-top: 10%;
+  position:relative;
+}
+.sections image{
+  width: 58rpx;
+  height: 58rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+.sections .verification_code{
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1rpx solid #888888;
+  position:relative;
+  width: 56%;
+  font-size: 30rpx;
+}
+.sections .btn_obtain{
+  display: inline-block;
+  vertical-align: middle;
+  position:absolute;
+  right: 0rpx;
+  font-size: 30rpx;
+  top:-22rpx;
+  z-index: 9;
+} 
+.btn_login{
+  width: 90%;
+  margin-top: 20%;
+}
+.btn_txt{
+  text-align:center;
+  width: 90%;
+  font-size: 24rpx;
+  line-height: 80rpx;
+  margin: 0 auto;
+}
+.btn_txt .agreement{
+  font-size: 24rpx;
+  color: #09bb07;
+}

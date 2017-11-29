@@ -1,0 +1,31 @@
+<!--pages/post_message/post_message.wxml-->
+
+<view class='bgBox'>
+  <!--view bg border  -->
+  <view class='bg'></view>
+  <!--input title  -->
+  <view>
+    <input type='text' placeholder-class="inputTitle_placeholder" placeholder='输入信息标题' class='inputTitle inputAll' value='' type='text'></input>
+  </view>
+
+  <!--input href   -->
+  <view>
+    <input placeholder='添加链接' class="inputHref inputAll" placeholder-class="inputHref_placeholder" value='' type='text'></input>
+  </view>
+  <!--text href  -->
+  <view class='icoText'>
+    <image class="ico_href" src="/images/icon_about@3x.png"></image>
+    <text class='text_href'>如何复制微信文章链接？</text>
+  </view>
+  <!--view bg border  -->
+  <view class='bg'></view>
+  <!--文本域  -->
+  <view>
+    <textarea placeholder='输入信息内容' placeholder-class="inputContent_placeholder" class='inputAll inputContent'></textarea>
+  </view>
+  <view class='sign'>署名 <text class='text'>默认显示用户名</text>
+  </view>
+  <view class='bigbg'>
+    <button class='btn'>选择模板</button>
+  </view>
+</view>

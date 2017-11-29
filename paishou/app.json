@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/my_coupon/my_coupon",
+    "pages/coupon_template/coupon_template",
+    "pages/index/index",
+    "pages/my_wallet/my_wallet",
+    "pages/edit_coupon/edit_coupon",
+    "pages/my_receive/my_receive",
+    "pages/qr_code_new/qr_code_new",
+    "pages/vip_list/vip_list",
+    "pages/release/release",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#64cb97",
+    "navigationBarTitleText": "人人派",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#64cb97",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "抢单",
+        "iconPath": "/images/tab_icon_grab.png",
+        "selectedIconPath": "/images/tab_icon_grab_pre.png"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "text": "发布",
+        "iconPath": "/images/tab_icon_post.png",
+        "selectedIconPath": "/images/tab_icon_post_pre.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/images/tab_icon_my.png",
+        "selectedIconPath": "/images/tab_icon_my_pre.png"
+      }
+    ]
+  }
+}

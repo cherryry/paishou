@@ -1,0 +1,103 @@
+/* pages/post_message/post_message.wxss */
+page{
+  background-color: #f4f4f4
+}
+.bgBox{
+  background-color: #ffffff
+}
+.bg {
+  width: 100%;
+  height: 30rpx;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e3e3e3;
+}
+.whiteBg{
+  background-color: #ffffff
+}
+.inputAll {
+  width: 90%;
+  margin: 0 30rpx 0 40rpx;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.inputTitle {
+  color: #8d8d8d;
+  height: 119rpx;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+/*inputTitle placeholder  */
+
+.inputTitle_placeholder {
+  color: #898989;
+  font-size: 35rpx;
+}
+
+.inputHref {
+  height: 118rpx;
+  color: #bbb;
+}
+
+/*inputHref placeholder  */
+
+.inputHref_placeholder {
+  color: #838383;
+  font-size: 30rpx;
+}
+
+.icoText {
+  width: 97%;
+  text-align: right;
+}
+
+.ico_href {
+  width: 30rpx;
+  height: 30rpx;
+  padding: 10rpx;
+  vertical-align: middle;
+}
+
+.text_href {
+  font-size: 24rpx;
+  color: #a9a9a9;
+  letter-spacing:1rpx;
+}
+
+.inputContent {
+  height: 250rpx;
+  padding-top: 50rpx;
+}
+
+.inputContent_placeholder {
+  color: #838383;
+  font-size: 30rpx;
+}
+
+.sign {
+  width: 90%;
+  height: 112rpx;
+  margin: 0 30rpx 0 40rpx;
+  line-height: 100rpx;
+  vertical-align: middle;
+  font-size: 30rpx
+}
+.text{
+  float: right
+}
+
+.bigbg{
+  width: 100%;
+  height: 410rpx;
+  background-color: #f4f4f4;
+  border-top: 1px solid #e3e3e3;
+  position: relative
+}
+
+.btn{
+  width: 90%;
+  margin: 0 5% 0 5%;
+  position: absolute;
+  bottom: 30rpx;
+  background-color: #09BA07;
+  color: #ffffff;
+}

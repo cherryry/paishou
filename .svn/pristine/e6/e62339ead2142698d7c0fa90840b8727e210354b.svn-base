@@ -1,0 +1,136 @@
+<!--pages/vip_list/vip_list.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">会员服务</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on1' : ''}}" data-current="1" bindtap="swichNav">非会员服务</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" bindchange="bindChange" style="height:{{winHeight - 0}}px">
+
+  <!-- 地图 -->
+
+  <swiper-item class="clearfix">
+    <view class='clearfix bigBox'>
+      <view class='clearfix'>
+        <view class='vipBox clearfix'>
+          <image src='/images/icon_vipone@3x.png' class='vipLogo'></image>
+          <text class='vipText'>  普通会员</text>
+          <image src='/images/icon_tong@3x.png' class='brandLogo'></image>
+        </view>
+        <view class='discountBox clearfix'>
+          <image src='/images/list_tag@3x.png' class='discountLogo'></image>
+          <text class='discountText'>5折</text>
+        </view>
+      </view>
+      <view class='textBox clearfix'>
+        <text class='text1'>发布信息和活动尊享8折优惠</text>
+        <text class='text2'>￥1000元/年</text>
+      </view>
+      <view class='payBox'>
+        <text class='payFor'>购 买</text>
+      </view>
+    </view>
+    <view class='clearfix bigBox'>
+      <view class='clearfix'>
+        <view class='vipBox'>
+          <image src='/images/icon_viptwo@3x.png' class='vipLogo'></image>
+          <text class='vipText'> 银石会员</text>
+          <image src='/images/icon_iron@3x.png' class='brandLogo'></image>
+        </view>
+        <view class='discountBox'>
+          <image src='/images/list_tag@3x.png' class='discountLogo'></image>
+          <text class='discountText'>5折</text>
+        </view>
+      </view>
+      <view class='textBox clearfix'>
+        <text class='text1'>发布信息和活动尊享8折优惠</text>
+        <text class='text2'>￥2000元/年</text>
+      </view>
+      <view class='payBox'>
+        <text class='payFor'>购 买</text>
+      </view>
+    </view>
+
+    <view class='clearfix bigBox'>
+      <view class='clearfix'>
+        <view class='vipBox'>
+          <image src='/images/icon_vipthree@3x.png' class='vipLogo'></image>
+          <text class='vipText'> 钻石会员</text>
+          <image src='/images/icon_king@3x.png' class='brandLogo'></image>
+        </view>
+        <view class='discountBox'>
+          <image src='/images/list_tag@3x.png' class='discountLogo'></image>
+          <text class='discountText'>5折</text>
+        </view>
+      </view>
+      <view class='textBox clearfix'>
+        <text class='text1'>发布信息和活动尊享8折优惠</text>
+        <text class='text2'>￥3000元/年</text>
+      </view>
+      <view class='payBox'>
+        <text class='payFor'>购 买</text>
+      </view>
+    </view>
+    <view class='bg'></view>
+    <view class='protocol'>
+      <view class='vipBox vipRbox'>
+        <image class='vipLogo2' src='/images/img_vip@3x.png'></image>
+        <text class='protocolText'> 会员服务协议</text>
+        <image src='/images/icon_arrowright@3x.png' class='logoR'></image>
+      </view>
+    </view>
+  </swiper-item>
+
+  <!-- 非会员 -->
+  <swiper-item class="business">
+    <view class='bg2'></view>
+    <view class='rowBox'>
+      <view>
+        <text> 收 费 项 目</text>
+      </view>
+      <view class='center'>
+        <text> 单 位 </text>
+      </view>
+      <view>
+        <text> 单 价 </text>
+      </view>
+    </view>
+    <!--转发  -->
+    <view class='rowBox'>
+      <view class='imgBox'>
+        <image src='/images/icon_repost@3x.png' class='forward'></image>
+        <text class='imgBoxText'>转发</text>
+      </view>
+      <view class='center pn'>
+        <text> 1人次 </text>
+      </view>
+      <view class='money'>
+        <text> ￥0.05 </text>
+      </view>
+    </view>
+    <!--点赞  -->
+    <view class='rowBox'>
+      <view class='imgBox'>
+        <image src='/images/icon_like@3x.png' class='forward'></image>
+        <text>点赞</text>
+      </view>
+      <view class='center pn'>
+        <text> 1人次 </text>
+      </view>
+      <view class='money'>
+        <text> ￥0.05 </text>
+      </view>
+    </view>
+    <!--评论  -->
+    <view class='rowBox'>
+      <view class='imgBox'>
+        <image src='/images/icon_comment@3x.png' class='forward'></image>
+        <text>评论</text>
+      </view>
+      <view class='center pn'>
+        <text> 1人次 </text>
+      </view>
+      <view class='money'>
+        <text> ￥0.05 </text>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>

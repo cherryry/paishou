@@ -1,0 +1,22 @@
+<view class='content'>
+ <text>平台发布功能介绍</text>
+</view>
+<view class='list_text'>
+  <view class='list_image'>
+    <image src='/images/icon_xinxi.png'></image>
+  </view>
+  <view class='list_texts'>
+    <text class='title'>发布信息</text>
+    <text class='substance'>介绍你的公司和产品，设置推广要求，派手接单后转发。感兴趣的用户/商户会进行留言和评论。</text>
+  </view>
+</view>
+
+<view class='list_text'>
+  <view class='list_image'>
+    <image src='/images/icon_huod.png'></image>
+  </view>
+  <view class='list_texts'>
+    <text class='title'>发布活动</text>
+    <text class='substance'>将促销活动通过优惠券的形式发布商家促销活动，派手会进行转发或领取，凭该优惠券消费。</text>
+  </view>
+</view>

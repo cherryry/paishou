@@ -1,0 +1,5 @@
+<view class="container">
+  <image class='top_img' src='/images/release.png'></image>
+  <text class='title'>你还未发布任何信息哦＞_＜</text>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"> 立 即 发 布 </button>
+</view>

@@ -1,0 +1,28 @@
+/* pages/profile_name/profile_name.wxss */
+page{
+  background-color: #F0EFF5
+}
+.inputBox{
+  margin-top: 15rpx;
+  padding: 15rpx 0;
+  background-color: #ffffff;
+
+}
+.nameInput{
+  width: 90%;
+  margin: 0 auto;
+}
+.title{
+  width: 90%;
+  margin: 25rpx auto;
+  font-size: 28rpx;
+  display: block;
+}
+.btnBox{
+  margin-top: 25rpx;
+}
+.btn{
+  width: 90%;
+  background-color: #09BA07;
+  color: #ffffff;
+}

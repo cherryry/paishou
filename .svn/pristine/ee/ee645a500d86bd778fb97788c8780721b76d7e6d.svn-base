@@ -1,0 +1,116 @@
+<!--pages/user_authentication/user_authentication.wxml-->
+<!--pages/vip_list/vip_list.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0">
+    <text class="authText {{currentTab==0 ? 'authTextOn' : ''}}">个人认证</text>
+  </view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on1' : ''}}" data-current="1">
+    <text class="authText {{currentTab==1 ? 'authTextOn' : ''}}">商户认证</text> </view>
+</view>
+<view class='bg'></view>
+<swiper current="{{currentTab}}" duration="300" bindchange="bindChange" style="height:{{winHeight - 0}}px">
+
+  <!-- 个人 -->
+
+  <swiper-item class="clearfix">
+    <!--认证图片  -->
+
+    <view class='authBigBox'>
+      <view class='authBox'>
+        <view class='smallBox'>
+          <image src='/images/icon_done@3x.png' class='authImg'></image>
+          <text class='authComments'>手机验证</text>
+        </view>
+        <view class='smallBg'></view>
+        <view class='smallBox'>
+          <image src='/images/icon_idcard@3x.png' class='authImg'></image>
+          <text class='authComments'>身份认证</text>
+        </view>
+      </view>
+    </view>
+    <view class="{{boxActive2 ? 'thisNone' : 'thatNone'}}">
+      <!--姓名+身份证号  -->
+      <view class='userBox'>
+        <view class='userName'>
+          <text class='userText'>姓　　名</text>
+          <input placeholder='输入真实姓名' class='userInput' name="name" required bindblur='userNameAuth'></input>
+        </view>
+        <view class='userId userName'>
+          <text class='userText'>身份证号</text>
+          <input placeholder='输入身份证号' class='userInput' name="idcard" required type='number' bindblur='userIdAuth'></input>
+        </view>
+      </view>
+      <!--身份证 正反面  -->
+      <view class='userCard'>
+        <image src='{{avatarUrlz}}' bindtap='modifyAvatar' data-id='1'></image>
+        <image src='{{avatarUrlf}}' bindtap='modifyAvatar' data-id='2'></image>
+      </view>
+      <button class="{{btnAll ? 'btn1' : 'btn'}}" bindtap='userAuth'>提 交 审 核</button>
+
+      <view class='show' wx:if="{{active}}" bindtap='isShow'></view>
+      <view class='showBox' wx:if="{{active}}">
+        <view class='photo' bindtap='bindViewTap'>拍照</view>
+        <view class='photo' bindtap='bindViewTap'>从手机相册选择</view>
+        <view class='bg'></view>
+        <view class='photo' bindtap='isShow'>取消</view>
+      </view>
+
+    </view>
+
+    <view class="{{boxActive2 ? 'thatNone' : 'thisNone'}} imgBox">
+      <image src='/images/img_underreview@3x.png' class='img'></image>
+      <text class='disText'>请耐心等待，三个工作日内审核成功
+将用短信形式告知您</text>
+    </view>
+  </swiper-item>
+
+  <!-- 商户 -->
+  <swiper-item class="business">
+    <!--认证图片  -->
+    <view class='authBigBox'>
+      <view class='authBox'>
+        <view class='smallBox'>
+          <image src='/images/icon_done@3x.png' class='authImg'></image>
+          <text class='authComments'>手机验证</text>
+        </view>
+        <view class='smallBg'></view>
+        <view class='smallBox'>
+          <image src='/images/icon_idcard@3x.png' class='authImg'></image>
+          <text class='authComments'>商家税号</text>
+        </view>
+      </view>
+    </view>
+    <!--姓名+身份证号  -->
+    <view class="{{boxActive ? 'thisNone' : 'thatNone'}}">
+      <view class='userBox'>
+        <view class='userName'>
+          <text class='userText'>商家名称</text>
+          <input placeholder='输入商家名称' class='userInput' name="businessName" required bindblur='userNameAuth'></input>
+        </view>
+        <view class='userId userName'>
+          <text class='userText'>商家税号</text>
+          <input placeholder='输入纳税人识别号' class='userInput' name="businessIdcard" required type='number' bindblur='businessNumberAuth'></input>
+        </view>
+      </view>
+      <!--身份证 正反面  -->
+      <view class='userCard'>
+        <image src='{{avatarUrls}}' bindtap='modifyAvatar' class='business' data-id="3"></image>
+        <text class="posiText {{btnCards?'thatNone':'thisNone'}}">上传营业执照</text>
+      </view>
+      <button class="btn {{btnAll2 ? 'btn1' : 'btn'}}">提 交 审 核</button>
+
+      <view class='show' wx:if="{{active}}" bindtap='isShow'></view>
+      <view class='showBox' wx:if="{{active}}">
+        <view class='photo' bindtap='bindViewTap'>拍照</view>
+        <view class='photo' bindtap='bindViewTap'>从手机相册选择</view>
+        <view class='bg'></view>
+        <view class='photo' bindtap='isShow'>取消</view>
+      </view>
+    </view>
+    <view class="{{boxActive ? 'thatNone' : 'thisNone'}} imgBox">
+      <image src='/images/img_underreview@3x.png' class='img'></image>
+      <text class='disText'>请耐心等待，三个工作日内审核成功
+将用短信形式告知您</text>
+    </view>
+  </swiper-item>
+</swiper>

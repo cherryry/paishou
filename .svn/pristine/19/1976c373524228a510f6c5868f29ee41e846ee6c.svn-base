@@ -1,0 +1,63 @@
+<!--pages/change_template/change_template.wxml-->
+
+<view class='bigBox'>
+  <view class='secondBox clearfix'>
+    <!--选择模板title  -->
+    <text class='textTitle'>选择模板</text>
+    <!--图片区域  -->
+    <view class='viewBox'>
+      <image src='/images/change_img_3.jpg' class='imgAll'></image>
+      <text class='textAll'>软文</text>
+    </view>
+    <view class='interspace'></view>
+    <view class='viewBox'>
+      <image src='/images/change_img_2.jpg' class='imgAll'></image>
+      <text class='textAll'>软文</text>
+    </view>
+
+    <view class='viewBox'>
+      <image src='/images/change_img_3.jpg' class='imgAll'></image>
+      <text class='textAll'>软文</text>
+    </view>
+    <view class='interspace'></view>
+    <view class='viewBox'>
+      <image src='/images/change_img_2.jpg' class='imgAll'></image>
+      <text class='textAll'>软文</text>
+    </view>
+
+    <view class='viewBox'>
+      <image src='/images/change_img_3.jpg' class='imgAll'></image>
+      <text class='textAll'>软文</text>
+    </view>
+    <view class='interspace'></view>
+    <view class='viewBox'>
+      <image src='/images/change_img_2.jpg' class='imgAll'></image>
+      <text class='textAll'>软文</text>
+    </view>
+
+
+    <!--隔断线  -->
+    <view class='hrClass '></view>
+    <!--中间的图标  -->
+    <view class='bgImg'>
+      <image src='/images/icon_fengexian@3x.png' class='icoImg'></image>
+    </view>
+    <view class='hrClass'></view>
+
+    <!--上传模板  -->
+    <view class='changeTemplate marginRight'>
+      <image src='/images/icon_add@3x.png' class='templateClass'></image>
+      <text class='templateText'>上传模板</text>
+    </view>
+    <!--不使用模板  -->
+    <view class='changeTemplate'>
+      <image src='/images/icon_blank@3x.png' class='templateClass'></image>
+      <text class='templateText'>不使用模板</text>
+    </view>
+
+  </view>
+  <!--选择模板按钮  -->
+  <view class='templateBtnBox'>
+    <button class='templateBtn'>选择模板</button>
+  </view>
+</view>

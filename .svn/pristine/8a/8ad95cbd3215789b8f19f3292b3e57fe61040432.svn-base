@@ -1,0 +1,37 @@
+
+  <!-- 列表 -->
+  <swiper-item class="business">
+
+  <view class='controls'>
+    <view class='cont_top'>
+      <view class='top_left'>    
+        <image class='' src='/images/icon_hot.png'></image>
+        <text>今日热门</text>
+      </view>
+      <view class='top_right'>  
+        <image src='/images/icon_find.png' bindtap='select_area'></image>
+      </view>
+    </view>
+  </view>
+
+    <view class='business_list' wx:for="{{list}}" wx:key="{{item}}">
+      <view class='list_left'>
+        <image src='{{item.src}}'></image>
+        <text class='list_left_text'>{{item.title}}</text>
+      </view>
+      <view class='list_middle'>
+        <text class='middle_title'>{{item.middle_title}}</text>
+        <view class='extension'>
+          <text class='extension_title'>推广预期：</text>
+          <text class='extension_Number'>{{item.extension_Number}}人</text>
+        </view>
+        <view class='commission'>
+          <text class='commission_title'>悬赏佣金：</text>
+          <text class='commission_Number'>{{item.commission_Number}}元/人</text>
+        </view>
+      </view>
+      <view class='list_right'>
+        <button class='btn_grab' bindtap='toGrab' data-id="{{item.id}}" data-index="{{item.index}}">抢 单</button>
+      </view>
+    </view>
+  </swiper-item>

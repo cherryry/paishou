@@ -1,0 +1,105 @@
+/* pages/my_wallet/my_wallet.wxss */
+
+/*
+             公共样式
+*/
+
+page {
+  background-color: #ededed;
+  color: #353535;
+  height: 96%;
+}
+
+text {
+  display: inline-block;
+}
+
+.bigBox {
+  width: 95%;
+  background-color: #fff;
+  margin: 20rpx auto;
+  height: 100%;
+  border-radius: 10rpx;
+}
+
+/*子盒子*/
+
+.secondBox {
+  padding-top: 65rpx;
+  padding-left: 27rpx;
+}
+
+/*圆点样式*/
+
+.dot {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background-color: #64cb97;
+  vertical-align: middle;
+}
+
+.userName {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}
+
+.inputBox {
+  width: 91.5%;
+  margin-left: 30rpx;
+  background-color: #f6f6f6;
+  height: 65rpx;
+  padding-top: 3rpx;
+  margin-top: 25rpx;
+}
+
+/*提示语*/
+
+.promptBox {
+  font-size: 26rpx;
+  color: #aeaeae;
+  margin-top: 30rpx;
+}
+
+.money {
+  color: #576b95;
+  margin-right: 40rpx;
+}
+
+/*提现按钮*/
+
+.btnBox {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 23%;
+}
+
+.btn {
+  background-color: #64cb97;
+  color: #fff;
+  letter-spacing: 2rpx;
+}
+
+.btn::after {
+  border: none;
+}
+
+/*提现时间提示*/
+
+.subTextBox {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+
+.tips {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: top;
+}
+
+.subText {
+  font-size: 26rpx;
+  color: #888;
+  margin-left: 10rpx;
+}

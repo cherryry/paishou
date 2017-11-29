@@ -1,0 +1,227 @@
+/* pages/business_homePage/business_homePage.wxss */
+
+/*
+  顶部-头像
+*/
+
+.topBox {
+  margin-top: 26rpx;
+}
+
+.titleBox {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.imgTitle {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.textTitle {
+  display: block;
+  font-size: 28rpx;
+  letter-spacing: 2rpx;
+  margin-left: 5%;
+  font-weight: bolder;
+}
+
+.textImg {
+  width: 27rpx;
+  height: 27rpx;
+}
+
+/*
+  顶部-计数
+*/
+
+.countBox {
+  width: 50%;
+  display: inline-block;
+}
+
+.countTextBox {
+  font-size: 26rpx;
+  color: #888;
+  margin-top: 15rpx;
+  letter-spacing: 3rpx;
+  font-weight: 500;
+}
+
+.countText {
+  color: #000;
+}
+
+.countTextHigh {
+  display: inline-block;
+  height: 30rpx;
+  width: 35rpx;
+  color: #fff;
+  background-color: #64cb97;
+  text-align: center;
+  line-height: 30rpx;
+  font-size: 24rpx;
+  margin-left: 15rpx;
+}
+
+/*滑动*/
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 1rpx solid #e2e2e2;
+  border-top: 1rpx solid #e2e2e2;
+  text-align: center;
+  height: 80rpx;
+  line-height: 76rpx;
+  background: #fff;
+  margin-top: 60rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 20%;
+  color: #777;
+  text-align: center;
+  margin-right: 10%;
+}
+
+.mrn {
+  margin-right: 0;
+}
+
+.on {
+  border-bottom: 5rpx solid #64cb97;
+}
+
+/*
+listbox img
+*/
+
+.listBox {
+  width: 100%;
+  border-bottom: 1rpx solid #e2e2e2;
+  padding: 30rpx 0;
+}
+
+.listSmallBox {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.imgBox {
+  width: 30%;
+  display: inline-block;
+}
+
+.imgBox image {
+  width: 169rpx;
+  height: 171rpx;
+  border-radius: 10rpx;
+}
+
+.textBox {
+  width: 70%;
+  display: inline-block;
+  font-size: 32rpx;
+  letter-spacing: 3rpx;
+  position: relative;
+}
+
+.blank {
+  height: 2rpx;
+  overflow: hidden;
+}
+
+.introductionText {
+  letter-spacing: 2rpx;
+}
+
+.expected {
+  display: block;
+  margin-top: 34rpx;
+  font-size: 26rpx;
+  color: #888;
+}
+
+.commission {
+  display: block;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #888;
+  line-height: 48rpx;
+}
+
+.person {
+  color: #000;
+  margin-left: 10rpx;
+  font-size: 25.95rpx;
+}
+
+.money {
+  color: #6372a9;
+  margin-left: 10rpx;
+  font-size: 25.95rpx;
+}
+
+.btn {
+  height: 48rpx;
+  background-color: #f4f4f4;
+  border-radius: 0;
+  display: inline-block;
+  border: 1rpx solid #c9c9c9;
+  font-size: 30rpx;
+  color: #888;
+  line-height: normal;
+  vertical-align: middle;
+  margin-left: 10%;
+}
+.btnBlock{
+  background-color: #ffffff;
+  color: #f5796e;
+  border: 1rpx solid #f5796e
+}
+.btn::after {
+  border: none;
+}
+.carryOutImg{
+  position: absolute;
+  width: 100rpx;
+  height: 64rpx;
+  right: 0
+}
+/*抢单*/
+.progressBox{
+  width: 200rpx;
+  height: 18rpx;
+  border: 1rpx solid #A1AACB;
+  border-radius: 20rpx;
+  position: relative;
+  vertical-align: middle;
+  margin-top: 5rpx;
+}
+.progress{
+  position: absolute;
+  width: 150rpx;
+  height: 18rpx;
+  left: 0;
+  border-radius: 20rpx;
+  background-color: #D4D8E7;
+  vertical-align: middle
+}
+.progressText{
+  position: absolute;
+  margin-left: 112%;
+  font-size: 22rpx;
+  color: #6372a9;
+  width: 200rpx;
+  vertical-align: middle;
+  line-height: 18rpx;
+}
+.expected2{
+  margin-top: 18rpx;
+}
+.commission2{
+  margin-top: 5rpx;
+}

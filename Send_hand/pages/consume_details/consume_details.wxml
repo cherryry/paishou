@@ -1,0 +1,27 @@
+<view class='con_details'>
+  <view class='details_top'>
+    <view class='title'>付费金额</view>
+    <view class='number'>￥500.00</view>
+  </view>
+  <view class='list_top'>
+    <text class='title'>当前状态</text>
+    <text class='state'>支付成功</text>
+  </view>
+  <view class='list_top'>
+    <text class='title'>付款项目</text>
+    <text class='number'>VIP套餐费用</text>
+  </view>
+  <view class='list_top'>
+    <text class='title'>付款时间</text>
+    <text class='number'>2017年11月20日12:20</text>
+  </view>
+  <view class='list_top'>
+    <text class='title'>付款方式</text>
+    <text class='number'>微信</text>
+  </view>
+  <view class='list_top'>
+    <text class='title'>交易单号</text>
+    <text class='number'>42323110</text>
+  </view>
+</view> 
+

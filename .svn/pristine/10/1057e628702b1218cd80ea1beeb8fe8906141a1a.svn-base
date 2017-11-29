@@ -1,0 +1,219 @@
+/* pages/vip_list/vip_list.wxss */
+
+.bigBox {
+  border-bottom: 1rpx solid #e2e2e2;
+  padding: 38rpx 0;
+  display: block;
+  position: relative;
+}
+
+.swiper-tab {
+  width: 100%;
+  border-top: 1rpx solid #e2e2e2;
+  border-bottom: 1rpx solid #e2e2e2;
+  text-align: center;
+  height: 80rpx;
+  line-height: 76rpx;
+  background: #fff;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 49.5%;
+  color: #777;
+  text-align: center;
+}
+
+.brr {
+  border-right: 1rpx solid #e2e2e2;
+}
+
+.brl {
+  border-left: 1rpx solid #e2e2e2;
+}
+
+.on {
+  color: #000;
+  border-bottom: 5rpx solid #64cb97;
+  border-right: 1rpx solid #e2e2e2;
+}
+
+.on1 {
+  color: #000;
+  border-bottom: 5rpx solid #64cb97;
+  border-left: 1rpx solid #e2e2e2;
+}
+
+.vipBox {
+  margin-left: 45rpx;
+  float: left;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 5rpx;
+  height: 40rpx;
+  line-height: 20rpx;
+}
+
+.vipLogo {
+  width: 32rpx;
+  height: 26rpx;
+  vertical-align: middle;
+}
+
+.vipLogo2 {
+  width: 32rpx;
+  height: 36rpx;
+  vertical-align: middle;
+}
+
+.protocolText {
+  vertical-align: middle;
+}
+
+.vipText {
+  vertical-align: middle;
+}
+
+.brandLogo {
+  width: 32rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+
+.discountBox {
+  float: right;
+}
+
+.discountLogo {
+  width: 105rpx;
+  height: 40rpx;
+  position: absolute;
+  z-index: -9;
+  right: 0;
+  top: 18%;
+}
+
+.discountText {
+  width: 105rpx;
+  height: 40rpx;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 26rpx;
+  letter-spacing: 2rpx;
+  text-indent: 5rpx;
+  line-height: 25rpx;
+}
+
+.textBox {
+  width: 60%;
+  font-size: 30rpx;
+  padding-left: 11%;
+  text-indent: 4rpx;
+  float: left;
+}
+
+.textBox text {
+  display: block;
+  color: #888;
+}
+
+.textBox .text2 {
+  color: #6372a9;
+  margin-top: 28rpx;
+}
+
+ .payBox {
+  margin-top: 10%;
+} 
+
+.payFor {
+  color: #6372a9;
+  border: 1rpx solid #6372a9;
+  padding: 15rpx 38rpx;
+  border-radius: 15rpx;
+  font-size: 28rpx;
+}
+
+.bg {
+  height: 21rpx;
+  width: 100%;
+  background-color: #eaeaea;
+  margin-bottom: 42rpx;
+}
+
+.logoR {
+  width: 32rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  position: absolute;
+  right: 32rpx;
+}
+
+.protocol {
+  width: 100%;
+  height: 90rpx;
+  border-bottom: 1rpx solid #e2e2e2;
+}
+
+/*second  */
+
+.rowBox {
+  color: #64cb97;
+  display: flex;
+  flex-direction: row;
+}
+
+.rowBox view {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  padding: 50rpx 0;
+  border-bottom: 1rpx solid #e5e5e5;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.rowBox view.center {
+  width: 20%;
+}
+
+.bg2 {
+  height: 21rpx;
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+/*转发  */
+
+.rowBox .imgBox {
+  font-size: 30rpx;
+  color: #000;
+  font-weight: 400;
+  text-align: left;
+  display: inline-block;
+}
+
+.forward {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 15rpx;
+  margin-left: 72rpx;
+}
+
+.imgBoxText {
+  display: inline-block;
+}
+
+.rowBox .pn {
+  color: #888;
+  font-weight: 400;
+}
+
+.rowBox .money {
+  color: #6372a9;
+  font-weight: 400;
+}

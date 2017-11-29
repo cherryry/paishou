@@ -1,0 +1,70 @@
+<view class="Line_top"></view>
+<view class="container">
+<!-- 认证流程 -->
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_done.png"></image>    
+    <view class="title">  
+    手机验证</view>
+  </view>
+  <view class="flow_line">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_shanghu.png"></image>
+    <view class="title">  
+    商户认证</view>
+  </view>
+  <view class="flow_dashed">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_rmbs.png"></image>
+    <view class="title">  
+    年费缴纳</view>
+  </view>
+  <view class="flow_dashed">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_fb.png"></image>
+    <view class="title">  
+    立即发布</view>
+  </view>  
+</view>
+
+<view class="Line">　</view>
+
+<view class="merchant_information">
+  <view class="merchant_top">
+    <text class="title">商家名称</text>
+    <input type="text" placeholder="请输入商户名称"></input>
+  </view>
+  <view class="merchant_top">
+    <text class="title">商家税号</text>
+    <input type="text" placeholder="请输入纳税人识别号"></input>
+  </view>
+  <view class="merchant_top">
+    <text class="title">商家地址</text>
+      <picker class="address" mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+        <view class="picker">
+          {{region[0]}}，{{region[1]}}，{{region[2]}}
+        </view>
+      </picker>
+  </view>
+</view>
+
+ <view class="Line">　</view>
+
+<view class="merchant_textarea">
+  <view class="section">
+   <textarea bindblur="bindTextAreaBlur" auto-height placeholder="商家简介" />
+  </view>
+</view>
+
+<view class="Line">　</view>
+
+<view class="btn_primary">
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" class="btn_submit" bindtap="primary"> 提 交 认 证 </button>
+  <button type="default" class="btn_skip" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 跳 过 认 证 </button>
+</view>
+
+<view class='footer'>
+  <image src='/images/icon_tip.png'></image>
+  <text>商户必须通过认证才能发布信息</text>
+</view>

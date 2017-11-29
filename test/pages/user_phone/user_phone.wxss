@@ -1,0 +1,52 @@
+page{
+  background: #f1eff6;
+}
+.from{
+  width: 100%;
+  background: #fff;
+  margin-top: 30rpx;
+}
+.from_top{
+  width: 90%;
+  height: 120rpx;
+  margin: 0 auto;
+  padding-top: 40rpx;
+}
+.from_top image{
+  width: 75rpx;
+  height: 75rpx;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 30rpx;
+}
+.from_top input{
+  width: 75%;  
+  vertical-align: middle;
+  display: inline-block;
+  text-align: left;
+  border-left: 1px solid #e7e7e7;
+  padding-left: 30rpx;
+}
+.btn_phone{
+  width: 200rpx;
+  font-size: 32rpx;
+  padding: 0;
+  border: 1px solid #7c95ca;
+  background: #ffffff;
+  color: #7c95ca;
+  margin-top: -118rpx;
+  margin-left: 500rpx;
+  z-index: 999;
+  position: absolute;
+  }
+
+.btn_next{
+  width: 90%;
+  position:fixed;
+  bottom: 80rpx;
+  left: 50%;
+  margin-left: -45%;
+}
+.btn_next button{
+  background: #64cb97;
+}

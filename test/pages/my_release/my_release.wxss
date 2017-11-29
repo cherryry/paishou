@@ -1,0 +1,17 @@
+.container{
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.container .top_img{
+  margin-top: 30%;
+  width: 571rpx;
+  height: 379rpx;
+}
+.container .title{
+  text-align: center;
+  font-size: 32rpx;
+  display: block;
+  padding: 100rpx 0 150rpx 0;
+  color: #AAAAAA; 
+}

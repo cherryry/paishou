@@ -1,0 +1,12 @@
+/**app.wxss**/
+/*清除浮动*/
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  visibility: hidden;
+}

@@ -1,0 +1,84 @@
+<!--pages/profile/profile.wxml-->
+<view class='profileBox'>
+  <image src='/images/profile_bg@3x.png' class='profileBg'></image>
+  <image src='/images/profile_portrait@3x.png' class='profilePortrait' bindtap='personal_information'></image>
+  <view class='textBox'>
+    <view class='text1' bindtap='personal_information'>阿香<image src='/images/img_vip@3x.png' class='vipLogo'></image>
+    </view>
+    <text class='text2' bindtap='personal_information'>一句话介绍自己</text>
+  </view>
+</view>
+<view class='bg'></view>
+<view class='container'>
+  <view class='releaseBox' bindtap='my_release'>
+    <text class='release'>我发布的</text>
+    <text class='few'>10条</text>
+  </view>
+  <view class='borderL'></view>
+  <view class='releaseBox' bindtap='my_receive'>
+    <text class='release'>我接收的</text>
+    <text class='few'>10条</text>
+  </view>
+</view>
+<view class='bg'></view>
+<view class='container'>
+  <view class='listBox clearfix'>
+    <view class='fl'>
+      <image src='/images/icon_wallet@3x.png' class='walletImg'></image>
+      <text class='myWallet'>我的钱包</text>
+    </view>
+    <view class='fr'>
+      <text class='money'>￥50.00</text>
+      <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+    </view>
+  </view>
+</view>
+<view class='container' bindtap='toCoupons'>
+  <view class='listBox clearfix'>
+    <view class='fl'>
+      <image src='/images/icon_quan@3x.png' class='walletImg'></image>
+      <text class='myWallet'>我的卡劵</text>
+    </view>
+    <view class='fr'>
+      <text class='money'>10</text>
+      <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+    </view>
+  </view>
+</view>
+<view class='container' bindtap='memberCentre'>
+  <view class='listBox clearfix'>
+    <view class='fl'>
+      <image src='/images/icon_vip@3x.png' class='walletImg'></image>
+      <text class='myWallet'>会员中心</text>
+    </view>
+    <view class='fr'>
+      <text class='money'>VIP1</text>
+      <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+    </view>
+  </view>
+</view>
+<view class='container' bindtap='toAuth'>
+  <view class='listBox clearfix'>
+    <view class='fl'>
+      <image src='/images/icon_renzheng@3x.png' class='walletImg'></image>
+      <text class='myWallet'>用户认证</text>
+    </view>
+    <view class='fr'>
+      <image src='/images/icon_null@3x.png' class='nullImg'></image>
+      <text class='money'>未认证</text>
+      <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+    </view>
+  </view>
+</view>
+<view class='container' bindtap='aboutRrp'>
+  <view class='listBox clearfix'>
+    <view class='fl'>
+      <image src='/images/icon_about@3x.png' class='walletImg'></image>
+      <text class='myWallet'>关于人人派</text>
+    </view>
+    <view class='fr'>
+      <text class='money'></text>
+      <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+    </view>
+  </view>
+</view>

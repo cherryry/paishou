@@ -1,0 +1,45 @@
+<view class="swiper-tab">
+  <view class="swiper-tab-list" data-current="1">
+    <text class="authText">个人认证</text>
+  </view>
+  <view class="swiper-tab-list on" data-current="0">
+    <text class="authText authTextOn">商户认证</text> 
+  </view>
+</view>
+ <text class='Line'>　</text>
+  <!-- 商户认证成功 -->
+
+  <swiper-item class="clearfix">
+    <!--认证图片  -->
+    <view class='authBigBox'>
+      <view class='authBox'>
+        <view class='smallBox'>
+          <image src='/images/icon_done@3x.png' class='authImg'></image>
+          <text class='authComments'>手机验证</text>
+        </view>
+        <view class='smallBg'></view>
+        <view class='smallBox'>
+          <image src='/images/icon_done@3x.png' class='authImg'></image>
+          <text class='authComments'>身份认证</text>
+        </view>
+      </view>
+      <view class='information'>
+          <view class='information_text'>
+            <text class='name'>商户名称：</text>
+            <text class='text'>成都人人派科技有限公司</text>
+            <image src='/images/icon_success.png'></image>
+          </view>
+          <view class='information_text'>
+            <text class='name'>商户税号：</text>
+            <text class='text'>12121212121212121</text>
+          </view>
+          <view class='information_id'>
+            <text>营业执照：</text>
+            <view class='information_img'>
+              <image class='img_1' mode="aspectFit" src='/images/img_license.png'></image>
+            </view>
+          </view>
+        </view>
+
+    </view>
+  </swiper-item>

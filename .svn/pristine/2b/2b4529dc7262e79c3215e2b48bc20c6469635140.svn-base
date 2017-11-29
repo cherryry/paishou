@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<view class="content">
+  <view class="banner">
+    <image src="/images/banner.png"></image>
+  </view>
+    <view class="section">
+    <image src="/images/login_user.png"></image>
+     <input class="phonecode" placeholder="手机号码" bindinput="phoneinput" class="mobile_phone" type="number" bindinput="phoneinput" maxlength="11" />
+    </view>
+    <view class="sections">
+      <image src="/images/login_validate.png"></image>
+      <input type="number" class="verification_code"  placeholder="验证码" bindinput="codeinput" maxlength="6" />
+        <button type="primary" bindtap="changeCode" disabled="{{codeDis}}" class="btn_obtain">
+          <text hidden="{{flag != true || phoneCode == '获取验证码'}}">重发</text>{{phoneCode}}
+          <text hidden="{{phoneCode == '获取验证码'}}">S</text>
+        </button>
+    </view>
+    <button type="primary" class="btn_login"  size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 注 册 </button>
+    <view class="btn_txt">
+      <text>注册即表示您已阅读并同意<text class="agreement">《用户协议》</text></text>
+    </view>        
+</view>

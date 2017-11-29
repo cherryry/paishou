@@ -1,0 +1,39 @@
+{
+  "pages": [ 
+    "pages/authentication/authentication",
+    "pages/index/index",
+    "pages/user_newphone/user_newphone",
+    "pages/user_usedphone/user_usedphone",
+    "pages/user_phone/user_phone",
+    "pages/success_merchant/success_merchant",
+    "pages/success_personal/success_personal",
+    "pages/user_authentication/user_authentication",
+    "pages/personal_information/personal_information",
+    "pages/profile/profile",
+    "pages/vip_list/vip_list",
+    "pages/grab/grab",
+    "pages/feedback/feedback",
+    "pages/consume_details/consume_details",
+    "pages/wallet/wallet",
+    "pages/cash_coupon/cash_coupon",
+    "pages/list/list",
+    "pages/my_release/my_release",
+    "pages/my_coupons/my_coupons",
+    "pages/user_like/user_like",
+    "pages/user_comment/user_comment",
+    "pages/main/main",
+    "pages/select_area/select_area",
+    "pages/about_rrp/about_rrp",
+    "pages/my_receive/my_receive",
+    "pages/self-introduction/self-introduction",
+    "pages/profile_name/profile_name",
+    "pages/test/test",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人人派",
+    "navigationBarTextStyle": "black"
+  }
+}

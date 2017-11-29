@@ -1,0 +1,8 @@
+<!-- 我的接收 -->
+<view class="container">
+  <image class='top_img' src='/images/receive.png'></image>
+  <text class='title'>你还未接收到任何抢单任务哦＞_＜</text>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 立 即 抢 单 </button>
+</view> 
+<!-- 我的接收 -->

@@ -1,0 +1,114 @@
+/* pages/pay_Commission/pay_Commission.wxss */
+
+.bigBox {
+  margin: 0 auto;
+}
+
+.bg {
+  width: 100%;
+  height: 20rpx;
+  border-bottom: 1rpx solid #cbcbcb;
+  background-color: #f3f3f3;
+}
+
+.bg2 {
+  width: 100%;
+  height: 30rpx;
+  border-bottom: 1rpx solid #cbcbcb;
+  border-top: 1rpx solid #cbcbcb;
+  background-color: #f3f3f3;
+}
+
+.box {
+  width: 100%;
+  background-color: #fff
+}
+
+.secondBox {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-bottom: 1rpx solid #cbcbcb;
+  display: block;
+  padding: 15rpx;
+}
+
+.firstText {
+  display: inline-block;
+  height: 100%;
+  line-height: 110rpx;
+  margin-right: 10rpx;
+}
+
+.secondText {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  color: #cbcbcb;
+  line-height: 110rpx;
+}
+
+.reduceBtn {
+  width: 41rpx;
+  height: 41rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.addBtn {
+  display: inline-block;
+  width: 41rpx;
+  height: 41rpx;
+  vertical-align: middle;
+}
+
+.expectInput {
+  width: 100rpx;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10rpx 0 10rpx;
+  line-height: 50rpx;
+}
+
+.borderNo {
+  border: none;
+}
+
+.pay {
+  border: none;
+  padding: 40rpx;
+}
+
+.payTow {
+  display: inline-block;
+  width: 75%;
+  text-align: right;
+  color: red;
+}
+
+.borderBM {
+  border-bottom: 1rpx solid #cbcbcb;
+}
+
+.payBtnBox {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 80rpx 0;
+}
+
+.payBtn {
+  width: 90%;
+  background-color: #09bb07;
+  color: #fff;
+}
+
+.bgImg {
+  width: 100%;
+  height: 320rpx;
+  background-color: #f3f3f3;
+}
+
+page {
+  background-color: #f3f3f3;
+}

@@ -1,0 +1,61 @@
+<view class='box'>
+  <view class='smallBox'>
+    <image src='/images/icon_location@3x.png'></image>
+    <text class='areaCity'>成都市</text>
+    <input placeholder='青羊区敬业路112号...' class='search' placeholder-class='phindent'></input>
+  </view>
+  <view class='smallBox hrBox'>
+    <image src='/images/icon_city@3x.png'></image>
+    <text class='areaCity'>主城区</text>
+    <text class='hr'></text>
+  </view>
+  <view class='btnBox_add'>
+    <view class='btnBox'>
+      <button>锦江区(20)</button>
+      <button class='btnR'>青羊区(20)</button>
+      <button class='btnR'>金牛区(20)</button>
+    </view>
+    <view class='btnBox'>
+      <button>武侯区</button>
+      <button class='btnR'>成华区(20)</button>
+      <button class='btnR'>高新区(20)</button>
+    </view>
+    <view class='btnBox'>
+      <button>天府新区(20)</button>
+      <button class='btnR'>龙泉驿区(20)</button>
+      <button class='btnR'>锦江区</button>
+    </view>
+    <view class='btnBox'>
+      <button>天府新区(20)</button>
+      <button class='btnR'>锦江区</button>
+      <button class='btnR'>锦江区</button>
+    </view>
+  </view>
+  <view class='smallBox hrBox'>
+    <image src='/images/icon_city@3x.png'></image>
+    <text class='areaCity'>大成都范围</text>
+    <text class='hr2'></text>
+  </view>
+    <view class='btnBox_add'>
+    <view class='btnBox'>
+      <button>锦江区(20)</button>
+      <button class='btnR'>青羊区(20)</button>
+      <button class='btnR'>金牛区(20)</button>
+    </view>
+    <view class='btnBox'>
+      <button>武侯区</button>
+      <button class='btnR'>成华区(20)</button>
+      <button class='btnR'>高新区(20)</button>
+    </view>
+    <view class='btnBox'>
+      <button>天府新区(20)</button>
+      <button class='btnR'>龙泉驿区(20)</button>
+      <button class='btnR'>锦江区</button>
+    </view>
+    <view class='btnBox'>
+      <button>天府新区(20)</button>
+      <button class='btnR'>锦江区</button>
+      <button class='btnR'>锦江区</button>
+    </view>
+  </view>
+</view>

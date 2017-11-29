@@ -1,0 +1,59 @@
+<!--pages/post_message/post_message.wxml-->
+<!--pages/post_message/post_message.wxml-->
+
+<view class='bgBox'>
+  <!--view bg border  -->
+  <view class='bg'></view>
+  <!--input title  -->
+  <view>
+    <input type='text' placeholder-class="inputTitle_placeholder" placeholder='输入信息标题(不超过22个字符)' class='inputTitle inputAll' value='' maxlength='22'></input>
+  </view>
+  <!--文本域  -->
+  <view>
+    <textarea placeholder='输入信息内容(不超过2000个字符)' placeholder-class="inputContent_placeholder" class='inputAll inputContent'  maxlength='2000'></textarea>
+    <view class='imgTextBox'>
+      <image src='/images/icon_insert_pre@3x.png' class='textareaImg'></image>
+      <text class='textareaText'>插入图片</text>
+    </view>
+  </view>
+</view>
+<view class='secondBox'>
+  <view class='selecArea'>
+    <text class='textWidth'>佣金单价</text>
+    <view class='selecAreaBox'>
+      <text class='locationText'>0.1/条</text>
+    </view>
+  </view>
+
+  <view class='selecArea selecAreaB'>
+    <text class='textWidth'>活动期限</text>
+    <view class='selecAreaBox'>
+      <text class='timeText'>2017年11月20日—2017年12月20日</text>
+    </view>
+  </view>
+
+  <view class='selecArea selecArea2'>
+    <text class='textWidth'>推广预期</text>
+    <view class='selecAreaBox'>
+      <image src='/images/icon_minus@3x.png' class='reduceBtn' id='secondReduce' bindtap = 'delMoney2'></image>
+      <input value="{{num}}" class='expectInput' bindchange = "inputEvent2" type='number'></input>
+      <image src='/images/icon_plus@3x.png' class='reduceBtn' bindtap='addMoney2'></image>
+    </view>
+  </view>
+</view>
+
+
+<view class='secondBox '>
+  <view class='selecArea selecArea2'>
+    <view class='iconImgBox'>
+      <image src='/images/icon_done@3x.png' class='locationImg2'></image>
+    </view>
+    <text class='textWidth textWidth2'>发放优惠券</text>
+    <view class='selecAreaBox selecAreaBox2'>
+      <image src='/images/icon_arrowright@3x.png' class='locationImg3'></image>
+    </view>
+  </view>
+</view>
+<view class='bigbg'>
+  <button class='btn' bindtap=''>预览</button>
+</view>

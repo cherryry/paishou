@@ -1,0 +1,222 @@
+/* pages/user_authentication/user_authentication.wxss */
+
+/* pages/vip_list/vip_list.wxss */
+
+page {
+  background-color: #f8f8fa;
+}
+.thatNone{
+  display: none
+}
+.thisNone{
+  display: block
+}
+.bg {
+  background-color: #f8f8fa;
+  height: 20rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #e8e8e8;
+}
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 1rpx solid #e8e8e8;
+  text-align: center;
+  line-height: 80rpx;
+  background: #fff;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 49.5%;
+  color: #bfbfbf;
+  text-align: center;
+}
+
+.on {
+  color: #000;
+  border-right: 1rpx solid #e8e8e8;
+}
+
+.on1 {
+  color: #000;
+  border-left: 1rpx solid #e8e8e8;
+}
+
+.authText {
+  margin: 0 auto;
+  width: 60%;
+  display: inline-block;
+  font-size: 32rpx;
+  letter-spacing: 5rpx;
+}
+
+.authTextOn {
+  border-bottom: 5rpx solid #64cb97;
+  color: #000;
+}
+
+/*身份认证+商户认证  */
+
+.authBigBox {
+  width: 100%;
+  border-bottom: 1rpx solid #e8e8e8;
+  background-color: #fff;
+}
+
+.authBox {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40rpx 0;
+}
+
+.smallBox {
+  display: inline-block;
+}
+
+.authComments {
+  display: block;
+  font-size: 30rpx;
+}
+
+.smallBg {
+  width: 30%;
+  border: 3rpx solid #64cb97;
+  display: inline-block;
+  margin: 0 5% 18%;
+}
+
+.authImg {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/*用户信息  */
+
+.userBox {
+  width: 100%;
+  border-bottom: 1rpx solid #e8e8e8;
+  font-size: 30rpx;
+  background-color: #fff;
+}
+
+.userName {
+  width: 80%;
+  border-bottom: 1rpx solid #e8e8e8;
+  margin: 0 auto;
+  letter-spacing: 2rpx;
+  padding: 30rpx 0;
+}
+
+.userId {
+  border-bottom: none;
+}
+
+.userInput {
+  width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.userText {
+  vertical-align: middle;
+  margin-right: 45rpx;
+  font-weight: 500;
+}
+
+/*用户身份证  */
+
+.userCard {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10rpx;
+  position: relative;
+}
+
+.userCard image {
+  width: 380rpx;
+  height: 230rpx;
+  margin-top: 30rpx;
+}
+
+.btn {
+  width: 90%;
+  color: #fff;
+  background-color: #e8e8e8;
+}
+
+.btn1 {
+  width: 90%;
+  color: #fff;
+  background-color: #64cb97;
+}
+
+/*  */
+
+.show {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.showBox {
+  position: fixed;
+  background-color: #fff;
+  z-index: 101;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.photo {
+  line-height: 100rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid rgb(234, 234, 234);
+  font-size: 28rpx;
+}
+
+.bg {
+  width: 100%;
+  height: 15rpx;
+  background-color: rgb(234, 234, 234);
+}
+
+/*business  */
+
+.userCard .business {
+  height: 472rpx;
+  width: 379rpx;
+}
+
+.posiText {
+  position: absolute;
+  top: 60%;
+  left: 39%;
+  font-size: 28rpx;
+}
+/*  */
+.imgBox{
+  width: 100%;
+  text-align: center;
+  margin-top: 129rpx;
+ 
+}
+.img{
+ width: 255rpx;
+ height: 192rpx;
+ margin-bottom: 81rpx;
+}
+.disText{
+  display: block;
+  font-size: 30rpx;
+  color: #bfbfbf;
+}

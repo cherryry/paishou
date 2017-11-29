@@ -1,0 +1,153 @@
+/**index.wxss**/
+page{
+  background: #64cb97;
+}
+.content{
+  width: 90%;
+  margin: 0 auto;
+}
+.content_add{
+  width: 90%;
+  margin: 0 auto;
+}
+.content_add .title{
+  padding-top: 20rpx;
+  padding-right: 10rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  display: inline-block;
+}
+.content_add .ioc_img{
+  width: 20rpx;
+  height: 10rpx;
+  display: inline-block;
+}
+.business{
+  position: relative;
+  overflow-y:auto;
+}
+.business_list {
+  margin: 25rpx auto;
+  padding: 50rpx 20rpx 20rpx 30rpx;
+  height: 200rpx;
+  border-bottom: 1px solid #e2e2e2;
+  background: #ffffff;
+  border-radius: 15rpx;
+}
+.list_left_text{
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.list_left {
+  display: inline-block;
+  width: 25%;
+}
+
+.list_left image {
+  width: 109rpx;
+  height: 109rpx;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.list_left text {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 26rpx;
+  font-weight: 600;
+  padding-top: 20rpx;
+}
+
+.list_middle {
+  width: 53%;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  top:-6rpx;
+}
+
+.list_middle .icon_bills{
+  width: 32rpx;
+  height: 35rpx;
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding-right: 10rpx;
+}
+
+.list_middle .icon_user{
+  width: 32rpx;
+  height: 35rpx;
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding-right: 10rpx;
+}
+.list_middle .middle_title {
+  font-size: 30rpx;
+  font-weight: 600;
+  letter-spacing: 1rpx; 
+  display: inline-block;
+  vertical-align: middle;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.list_middle .extension { 
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24rpx;
+  height: 70rpx;
+}
+
+.list_middle .extension .extension_title {
+  text-align: left;
+  display: inline-block;
+  color: #888;
+  padding-top: 15px;
+}
+
+.list_middle .extension .extension_Number {
+  display: inline-block;
+  color: #000;
+}
+
+.list_middle .commission {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24rpx;
+}
+
+.list_middle .commission .commission_title {
+  display: inline-block;
+  vertical-align: middle;
+  color: #888;
+  
+}
+
+.list_middle .commission .commission_Number {
+  display: inline-block;
+  vertical-align: middle;
+  color: #6372a9;
+}
+
+.list_right {
+  margin-top: 113rpx;
+  width: 22%;
+  float: right;
+}
+
+.list_right .btn_grab {  
+  font-size: 28rpx;
+  border-radius: 0;
+  color: #ffffff;   
+  background: #6372a9;
+  line-height: 50rpx;
+}
+.list_right .btn_grab::after {
+  border: none;
+}

@@ -1,0 +1,42 @@
+.content{
+  width: 90%;
+  margin: 0 auto;
+}
+.content text{
+  color: #a9a9a9;
+  font-size: 32rpx;
+  line-height:100rpx; 
+}
+.list_text{
+  border-top: 1rpx solid #eeeeee;
+  width: 90%;
+  height: 180rpx;
+  margin: 0 auto;
+  padding-top: 50rpx;  
+  padding-bottom: 50rpx;
+  display:block;
+}
+.list_image{
+  float: left;
+  width: 30%;
+  display:block;
+}
+.list_image image{
+  width: 125rpx;
+  height: 125rpx;
+  display:block;
+
+}
+.list_texts{
+  float: left;
+  width: 70%;
+}
+.list_texts .title{
+  font-size: 32rpx;
+  display: block;
+  padding-bottom: 3rpx;
+}
+.list_texts .substance{
+  font-size: 28rpx;
+  color: #a9a9a9;
+}

@@ -1,0 +1,6 @@
+/* pages/test/test.wxss */
+.btn{
+  text-indent:100rpx;
+  display: inline-block;
+  width: 80%;
+}

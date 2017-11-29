@@ -1,0 +1,108 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container .top_img {
+  margin-top: 30%;
+  width: 571rpx;
+  height: 379rpx;
+}
+
+.container .title {
+  text-align: center;
+  font-size: 32rpx;
+  display: block;
+  padding: 100rpx 0 150rpx 0;
+  color: #aaa;
+}
+
+.btn {
+  background-color: #64cb97;
+  color: #ffffff
+}
+
+/* 我的接收列表 */
+.listBox {
+  width: 100%;
+  border-bottom: 1rpx solid #e2e2e2;
+  padding: 30rpx 0;
+}
+
+.listSmallBox {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.imgBox {
+  width: 30%;
+  display: inline-block;
+}
+
+.imgBox image {
+  width: 169rpx;
+  height: 171rpx;
+  border-radius: 10rpx;
+}
+
+.textBox {
+  width: 70%;
+  display: inline-block;
+  font-size: 32rpx;
+  letter-spacing: 3rpx;
+  position: relative;
+}
+
+.blank {
+  height: 2rpx;
+  overflow: hidden;
+}
+
+.introductionText {
+  letter-spacing: 2rpx;
+}
+
+.expected {
+  display: block;
+  margin-top: 34rpx;
+  font-size: 26rpx;
+  color: #888;
+}
+
+.commission {
+  display: block;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #888;
+  line-height: 48rpx;
+}
+
+.person {
+  color: #000;
+  margin-left: 10rpx;
+  font-size: 25.95rpx;
+}
+
+.money {
+  color: #6372a9;
+  margin-left: 10rpx;
+  font-size: 25.95rpx;
+}
+
+
+.btnBlock{
+  background-color: #ffffff;
+  color: #f5796e;
+  border: 1rpx solid #f5796e
+}
+.btn::after {
+  border: none;
+}
+.carryOutImg{
+  position: absolute;
+  width: 100rpx;
+  height: 64rpx;
+  right: 0;
+  top:30rpx;
+}

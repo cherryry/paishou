@@ -1,0 +1,10 @@
+<!--pages/profile_name/profile_name.wxml-->
+<view class='bg'></view>
+<view class='inputBox'>
+  <input placeholder='阿香' class='nameInput'></input>
+
+</view>
+<text class='title'>4-20个字符,可用中文、数字、“—”、“_”组成</text>
+<view class='btnBox'>
+  <button class='btn'>保存</button>
+</view>

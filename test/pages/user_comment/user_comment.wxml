@@ -1,0 +1,58 @@
+<!--pages/user_comment/user_comment.wxml-->
+
+<view class='t-l-c-f-box'>
+  <view class='allBox' bindtap='toLikeList'>
+    <image src='/images/icon_like@3x.png' class='ico-img' bindtap='toLikeList'></image>
+    <text class='ico-text'>200</text>
+  </view>
+
+  <view class='allBox commentBox'>
+    <image src='/images/icon_comment@3x2.png' class='ico-img ico-comment'></image>
+    <text class='ico-text2'>200</text>
+  </view>
+
+  <view class='allBox mn'>
+    <image src='/images/icon_repost@3x.png' class='ico-img'></image>
+    <text class='ico-text'>200</text>
+  </view>
+</view>
+<!--用户评论  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <view class='usersName'>用户名
+    <text class='usersTime'>42分钟前</text>
+    <textarea class='commentContent'>我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容。 </textarea>
+  </view>
+</view>
+<!--用户评论  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <view class='usersName'>用户名
+    <text class='usersTime'>42分钟前</text>
+    <textarea class='commentContent'>我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容。 </textarea>
+  </view>
+</view>
+<!--用户评论  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <view class='usersName'>用户名
+    <text class='usersTime'>42分钟前</text>
+    <textarea class='commentContent'>我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容。 </textarea>
+  </view>
+</view>
+<!--用户评论  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <view class='usersName'>用户名
+    <text class='usersTime'>42分钟前</text>
+    <textarea class='commentContent'>我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容我是评论内容。 </textarea>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class='content'>
+  <view class='content_add'>
+    <text class='title'>成都</text>
+    <image class='ioc_img' src='/images/icon_select.png'></image>
+  </view>
+  <scroll-view class='business' scroll-y="true" bindscrolltolower="searchScrollLower">
+    <view class='business_list' wx:for="{{searchSongList}}" wx:key="{{item}}">
+      <view class='list_left'>
+        <image src='{{item.userHeadImg}}' mode="aspectFill"></image>
+        <text class='list_left_text'>{{item.shopName}}</text>
+      </view>
+      <view class='list_middle'>
+        <text class='middle_title'>{{item.title}}</text>
+        <view class='extension'>
+          <image src='/images/icon_bills.png' class='icon_bills'></image>
+          <text class='extension_title'>推广总数：</text>
+          <text class='extension_Number'>{{item.expect}}条</text>
+        </view>
+        <view class='commission'>
+          <image src='/images/icon_user.png' class='icon_user'></image>
+          <text class='commission_title'>悬赏佣金：</text>
+          <text class='commission_Number'>0.1元/条</text>
+        </view>
+      </view>
+      <view class='list_right'>
+        <button class='btn_grab' bindtap='toGrab' data-id="{{item.id}}" data-index="{{item.index}}">抢 单</button>
+      </view>
+
+    </view>
+  </scroll-view>
+</view>

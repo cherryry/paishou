@@ -1,0 +1,15 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='textBox'>
+  <text>请选择出现的问题</text>
+</view>
+<view class='btnBox'>
+  <checkbox-group bindchange="checkboxChange" class="checkBox">
+    <label class="checkbox" wx:for="{{items}}" wx:for-item="itemName">
+      <checkbox value="{{itemName.name}}" checked="{{itemName.checked}}" /> {{itemName.value}}
+    </label>
+  </checkbox-group>
+  <textarea class='textArea'></textarea>
+</view>
+<view class='subBox'>
+  <button class='btn'>提交</button>
+</view>

@@ -1,0 +1,135 @@
+.swiper-tab{  
+    width: 100%;     
+    text-align: center;  
+    line-height: 100rpx;
+    border-bottom: 1px solid #e6e6e6;
+    }  
+.swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 49.69%;  
+    color: #777777;      
+}  
+.on{ 
+    color: #000000;  
+    border-bottom: 5rpx solid #64cb97;
+    width: 50%;
+  }  
+  
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.swiper-box view{  
+    text-align: center;  
+}  
+
+.flow_path{
+  width: 100%;
+  height: 200rpx;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.step{
+  width: 100%;
+}
+.step image{
+  width: 93rpx;
+  height: 93rpx;
+  padding: 30rpx 30rpx 0 30rpx;
+}
+.step .spot{
+  width: 8rpx;
+  height: 8rpx;
+  background: #aeaeae;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10rpx;
+  margin-bottom: 50rpx;
+}
+.step text{
+  font-size: 30rpx;
+}
+.flow_step{
+  width: 100%;
+  margin: 0 auto;
+}
+.flow_step .phone{
+  width: 50%;
+  font-size: 30rpx;
+  text-align: center;
+  float: left;
+}
+.flow_step .identity{
+  width: 50%;
+  font-size: 30rpx;
+  text-align: center;
+  float: right;
+}
+.from{
+  width: 100%;
+  margin: 0 auto;
+  height: 350rpx;
+  border-bottom: 1px solid #e7e7e7;
+}
+.from_top{
+  width: 80%;
+  height: 80rpx;
+  padding-top: 50rpx;
+  vertical-align: middle;
+  display: inline-block;
+}
+.Line{
+  width: 80%;
+  vertical-align: middle;
+  display: inline-block;
+  border-bottom: 1px solid #e7e7e7;
+}
+.from_top image{
+  width: 75rpx;
+  height: 75rpx;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 30rpx;
+}
+.from_top input{
+  width: 75%;  
+  vertical-align: middle;
+  display: inline-block;
+  text-align: left;
+  border-left: 1px solid #e7e7e7;
+  padding-left: 30rpx;
+}
+
+.btn_verification{
+  width: 200rpx;
+  font-size: 32rpx;
+  padding: 0;
+  border-radius: 0;
+  background: #7c95ca;
+  color: #ffffff;
+  margin-top: -75rpx;
+  margin-left: 400rpx;
+  z-index: 999;
+}
+
+.btn_next{
+  width: 90%;
+  margin: 30rpx auto;
+  padding-top: 130rpx;
+}
+.btn_next button{
+  background: #64cb97;
+}
+.text{
+  text-align: center;
+}
+.text_left{
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 22rpx;
+}
+.text_right{
+  text-align: center;
+  color: #64cb97;
+  font-size: 22rpx;
+}

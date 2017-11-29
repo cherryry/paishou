@@ -1,0 +1,168 @@
+<!--pages/my_coupons/my_coupons.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">满减券</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">现金券</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="1" bindtap="swichNav">折扣券</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" bindchange="bindChange" style="height:{{winHeight - 0}}px">
+  <!--优惠券  -->
+  <swiper-item class="clearfix">
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_bg_quan@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <image src='/images/voucher_icon_rmb.png' class='symbol'></image>
+          <text class='moneyMany'>10</text>
+          <text class='condition'>满60元可抵扣</text>
+          <text class='couponText'>优惠券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+      <view class='isUsedBox'>
+        <image src='/images/mask@3x.png' class='isUsed'></image>
+         <image src='/images/mask2@3x.png' class='isUsed2'></image> 
+        <text class='isUsedText'>已使用</text>
+      </view>
+    </view>
+
+
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_bg_quan@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <view class='coupon_top'>
+            <image src='/images/voucher_icon_rmb.png' class='symbol'></image>
+            <text class='moneyMany'>10</text>
+            <text class='condition'>满60元可抵扣</text>
+            <text class='couponText'>优惠券</text>
+          </view>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+      <view class='isUsedBox'>
+        <image src='/images/mask@3x.png' class='isUsed'></image>
+         <image src='/images/mask2@3x.png' class='isUsed2'></image> 
+        <text class='isUsedText'>已失效</text>
+      </view>
+    </view>
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_bg_quan@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <image src='/images/voucher_icon_rmb.png' class='symbol'></image>
+          <text class='moneyMany'>10</text>
+          <text class='condition'>满60元可抵扣</text>
+          <text class='couponText'>优惠券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+     <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_bg_quan@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <image src='/images/voucher_icon_rmb.png' class='symbol'></image>
+          <text class='moneyMany'>10</text>
+          <text class='condition'>满60元可抵扣</text>
+          <text class='couponText'>优惠券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_bg_quan@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <image src='/images/voucher_icon_rmb.png' class='symbol'></image>
+          <text class='moneyMany'>10</text>
+          <text class='condition'>满60元可抵扣</text>
+          <text class='couponText'>优惠券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <!--现金劵  -->
+  <swiper-item class="clearfix">
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_voucher_cash@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <text class='symbol'>￥</text>
+          <text class='moneyMany'>10</text>
+          <text class='couponText'>现金券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_voucher_cash@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <text class='symbol'>￥</text>
+          <text class='moneyMany'>10</text>
+          <text class='couponText'>现金券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_voucher_cash@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <text class='symbol'>￥</text>
+          <text class='moneyMany'>10</text>
+          <text class='couponText'>现金券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+  <!--折扣券  -->
+  <swiper-item class="clearfix">
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_voucher_discount@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <text class='moneyMany2'>8.8</text>
+          <text class='symbol2'>折</text>
+          <text class='couponText2'>折扣券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_voucher_discount@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <text class='moneyMany2'>8.8</text>
+          <text class='symbol2'>折</text>
+          <text class='couponText2'>折扣券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+    <view class='couponBox'>
+      <view class='coupon'>
+        <image src='/images/img_voucher_discount@3x.png' class='couponImg'></image>
+        <view class='couponContent'>
+          <text class='moneyMany2'>8.8</text>
+          <text class='symbol2'>折</text>
+          <text class='couponText2'>折扣券</text>
+          <button class='btn'>立即领取</button>
+          <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>

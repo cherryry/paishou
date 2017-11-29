@@ -1,0 +1,12 @@
+<view class='from'>
+    <view class='from_top'>
+      <image src='/images/icon_iphone.png'></image>
+      <input placeholder="请输入手机号" placeholder-style='color: #bfbfbf;' maxlength="11" bindinput="phoneinput"></input>
+    </view>
+    <button class='btn_phone' >更换手机</button>
+</view>
+
+ <view class='btn_next'>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+    disabled="{{disabled}}" bindtap="primary"> 退出登录 </button>
+</view>

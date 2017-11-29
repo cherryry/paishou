@@ -1,0 +1,45 @@
+<view class="container">
+<!-- 认证流程 -->
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_done.png"></image>    
+    <view class="title">  
+    手机验证</view>
+  </view>
+  <view class="flow_line">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_done.png"></image>
+    <view class="title">  
+    商户认证</view>
+  </view>
+  <view class="flow_line">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_rmb.png"></image>
+    <view class="title">  
+    年费缴纳</view>
+  </view>
+  <view class="flow_dashed">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_fb.png"></image>
+    <view class="title">  
+    立即发布</view>
+  </view>
+  <view class="Line">　</view>
+  <view class="information">
+    <text>缴纳年费后，商户可以免费发布消息与活动</text>
+    <text>导流成功后，推广次数不限</text>
+  </view>
+  <view class="Amount_money">
+     <image src="/images/img_Purse.png"></image>
+     <text class="text_1">微信支付</text>
+     <text class="text_2">￥2000</text>
+  </view>
+  <view>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 确 认 支 付 </button>
+  </view>
+  <view class="footer">
+    <text class="footer_text1">支付问题</text>
+    <text class="footer_text2">本服务由微信财付通提供</text>
+  </view>
+  
+</view>

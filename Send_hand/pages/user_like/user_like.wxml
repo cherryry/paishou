@@ -1,0 +1,85 @@
+<!--pages/user_like/user_like.wxml-->
+<view class='bigBox'>
+  <view class='t-l-c-f-box'>
+    <view class='allBox commentBox'>
+      <image src='/images/icon_like@3x3.png' class='ico-img'></image>
+      <text class='ico-text2'>200</text>
+    </view>
+
+    <view class='allBox' bindtap='toUserComment'>
+      <image src='/images/icon_comment@3x.png' class='ico-img'></image>
+      <text class='ico-text'>200</text>
+    </view>
+
+    <view class='allBox mn'>
+      <image src='/images/icon_repost@3x.png' class='ico-img'></image>
+      <text class='ico-text'>200</text>
+    </view>
+  </view>
+</view>
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>
+<!--用户点赞  -->
+<view>
+  <view class='usersImgBox'>
+    <image class='usersImg' src='/images/profile_portrait@3x.png'></image>
+  </view>
+  <text class='usersName'>用户名</text>
+</view>

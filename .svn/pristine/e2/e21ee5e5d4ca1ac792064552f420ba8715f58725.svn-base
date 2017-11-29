@@ -1,0 +1,89 @@
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 25rpx;
+}
+ .contents{
+ text-align: center;
+ flex-direction: row;
+ display:inline-block;
+ width: 20%;
+ margin-top: 30rpx;
+ vertical-align: middle;
+}
+.contents .title{
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+.contents .img_txt{
+  width: 50rpx;
+  height: 50rpx;
+}
+.flow_line{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1rpx solid #31ad37;
+  margin: 0 auto;
+}
+.flow_dashed{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1rpx dashed #e5e5e5;
+  margin: 0 auto;
+}
+.Line{
+  border-top: 1px solid #e5e5e5;
+}
+.pay_text{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.pay_text image{
+  width: 212rpx;
+  height: 203rpx;
+}
+.pay_text .success_text{
+  font-size: 40rpx;
+  display: block;
+  line-height: 100rpx;
+}
+.pay_text .pay_text{
+  font-size: 28rpx;
+}
+.btn_primary{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 100rpx;
+  
+}
+
+.btn_submit{
+font-size: 32rpx;
+}
+
+.btn_skip{
+  margin-top: 25rpx;
+  font-size: 32rpx;
+}
+
+.footer{
+  width: 90%;
+  margin: 0 auto; 
+  text-align: center;
+  padding-top: 30rpx;
+}
+.footer image{
+  width: 39rpx;
+  height: 39rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.footer text{
+  font-size: 28rpx;
+  display: inline-block;
+  vertical-align: middle;
+}

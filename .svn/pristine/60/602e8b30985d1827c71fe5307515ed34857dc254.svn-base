@@ -1,0 +1,10 @@
+<!--pages/self-introduction/self-introduction.wxml-->
+<view class='bg'></view>
+<view class='inputBox'>
+  <textarea class='nameInput' placeholder='介绍一下自己把（如经营范围等）'></textarea>
+
+</view>
+<view class='btnBox'>
+  <button class='btn'>保存</button>
+</view>
+

@@ -1,0 +1,47 @@
+/* pages/feedback/feedback.wxss */
+
+.textBox {
+  width: 90%;
+  margin: 24rpx auto 84rpx;
+  font-size: 32rpx;
+  color: #888;
+  letter-spacing: 2rpx;
+}
+
+.btnBox {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.checkBox {
+  font-size: 34rpx;
+  letter-spacing: 5rpx;
+  display: block;
+  width: 100%;
+}
+
+.checkBox label {
+  display: block;
+  margin-top: 54rpx;
+}
+
+.textArea {
+  margin-top: 54rpx;
+  width: 90%;
+  height: 240rpx;
+  border: 0.1rpx solid #d6d6d6;
+  padding: 20rpx;
+}
+
+.subBox {
+  width: 90%;
+  position: fixed;
+  bottom: 4%;
+  left: 32rpx;
+}
+
+.subBox button {
+  background-color: #64cb97;
+  color: #FFFFFF;
+
+}

@@ -1,0 +1,14 @@
+
+  <!-- 地图 -->
+  <swiper-item>  
+    <map class='home_map' longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}">
+      <cover-view class='location_img'>
+        <cover-image class="txt_image" bindtap='getlocation' src="/images/icon_location.png"> </cover-image>
+      </cover-view>       
+      <cover-view class='footer'>      
+       <cover-image src='/images/icon_news1.png' class='news_img' bindtap='list'> </cover-image>
+       <cover-image src='/images/btn_fabu.png' class='release_img'></cover-image>
+       <cover-image src='/images/icon_my.png' class='my_img' bindtap='profile'></cover-image>
+      </cover-view>
+    </map>  
+  </swiper-item>

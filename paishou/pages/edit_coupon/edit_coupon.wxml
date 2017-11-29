@@ -1,0 +1,43 @@
+<view class='grad'>
+
+    <view class='content'>
+      <view class='column'>
+        <text class='column_left'>设置金额：</text>
+        <input class='column_right' type='text' placeholder='输入金额(如:10代表直接使用10元)'></input>
+      </view>
+      <view class='column'>
+        <text class='column_left'>使用条件：</text>
+        <input class='column_right' type='text' placeholder='输入优惠说明'></input>
+      </view>
+      <view class='column'>
+              <text class='column_left'>使用期限：</text>
+      <picker class='text' style='' mode="date" value="{{startValue}}" bindchange="startValue">  
+     {{startValue}}  
+</picker>  --
+ <picker class='text' mode="date" value="{{endValue}}" bindchange="endValue">  
+     {{endValue}}  
+</picker>  
+
+      </view>
+      <view class='column'>
+        <text class='column_left'>使用对象：</text>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}" wx:key='item'>
+            <radio color='#64cb97' value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          </label>
+        </radio-group>
+      </view>
+
+      <view class='details'>
+      使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情
+      </view>
+
+      <view class='code'>
+        <image src='/images/img_code.png'></image>
+      </view>
+   
+        <button class='btn_preservation' >保 存</button>
+
+    </view>
+
+</view>

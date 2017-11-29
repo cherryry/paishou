@@ -1,0 +1,88 @@
+/* pages/personal_information/personal_information.wxss */
+
+.fl {
+  float: left;
+  display: inline-block;
+}
+
+.fr {
+  float: right;
+  display: inline-block;
+}
+
+.container {
+  padding: 10rpx 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1rpx solid rgb(234, 234, 234);
+  font-size: 28rpx;
+}
+
+.textTitle {
+  line-height: 100rpx;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: middle;
+}
+
+.arrow {
+  width: 18rpx;
+  height: 35rpx;
+  vertical-align: middle;
+  margin-top: 35rpx;
+  margin-left: 25rpx;
+}
+
+.arrow1 {
+  margin-top: 15rpx;
+}
+
+.show {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.showBox {
+  position: fixed;
+  background-color: #fff;
+  z-index: 101;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.photo {
+  line-height: 100rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid rgb(234, 234, 234);
+  font-size: 28rpx;
+}
+
+.bg {
+  width: 100%;
+  height: 15rpx;
+  background-color: rgb(234, 234, 234);
+}
+
+.notCertified {
+  color: #9daed4;
+  display: inline-block;
+  width: 110rpx;
+  font-size: 24rpx;
+  padding: 5rpx;
+  border: 1rpx solid #9daed4;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 35rpx;
+}

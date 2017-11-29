@@ -1,0 +1,29 @@
+<view class="grad">
+  <view class='voucher'>
+    <view class='voucher_top'>
+      <text class='title'>向商家出示本券码即可消费</text>
+      <image class='voucher_img' src='/images/img_code.png'></image>     
+   
+      <view class='rmb_bg'>
+        <text>100元</text>
+        <image class='rmb_img' src='/images/img_quan.png'></image>
+      </view>
+     </view>
+  </view>
+
+<view class='foot_bottom'> 
+    <view class='voucher_bottom'>
+      <view class='voucher_condition'> 
+        <image class='condition_image' src='/images/icon_conditions.png'></image>
+        <text>使用条件：满60元可抵扣</text>
+      </view>
+      <view class='voucher_time'> 
+        <image class='time_image' src='/images/icon_time.png'></image>
+        <text>使用期限：2017.11.20-2017.11.30</text>
+      </view>
+      <view class='content'> 
+        <text>使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情使用说明详情</text>
+      </view>
+    </view>
+  </view>
+</view> 

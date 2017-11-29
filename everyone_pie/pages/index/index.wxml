@@ -1,0 +1,18 @@
+<!-- <view class="map_container"> 
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map> 
+</view> 
+<view class="place_info"> 
+  <text>{{placeData.title}}</text> 
+  <text>{{placeData.address}}</text> 
+  <text>{{placeData.telephone}}</text> 
+</view>  -->
+<map id="myMap" show-location />
+<!-- 通知消息 -->
+<view class="notice">
+    <image src="/images/icon_news.png"></image>
+    <text class="inform">立即登录免费发布信息，抢优惠红包!</text>
+</view>
+<!-- 免费发布 -->
+<view class="btn_release">
+    <image src="/images/btn_release.png" mode="spectFit"></image>
+</view>

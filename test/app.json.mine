@@ -1,0 +1,26 @@
+{
+  "pages": [ 
+    "pages/wallet/wallet",
+    "pages/index/index",
+    "pages/cash_coupon/cash_coupon",   
+    "pages/vip_list/vip_list",
+    "pages/profile/profile",
+    "pages/my_release/my_release",
+    "pages/feedback/feedback",
+    "pages/list/list",
+    "pages/main/main",
+    "pages/select_area/select_area",
+    "pages/about_rrp/about_rrp",
+    "pages/my_receive/my_receive",
+    "pages/personal_information/personal_information",
+    "pages/self-introduction/self-introduction",
+    "pages/profile_name/profile_name",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人人派",
+    "navigationBarTextStyle": "black"
+  }
+}

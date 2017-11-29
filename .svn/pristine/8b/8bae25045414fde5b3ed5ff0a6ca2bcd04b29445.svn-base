@@ -1,0 +1,122 @@
+
+.Line_top{
+  border-top: 1px solid #e5e5e5;
+  background: #f4f4f4;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 25rpx;
+}
+ .contents{
+ text-align: center;
+ flex-direction: row;
+ display:inline-block;
+ width: 20%;
+ margin-top: 30rpx;
+ vertical-align: middle;
+}
+.contents .title{
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+.contents .img_txt{
+  width: 50rpx;
+  height: 50rpx;
+}
+.flow_line{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1rpx solid #31ad37;
+  margin: 0 auto;
+}
+.flow_dashed{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1rpx dashed #e5e5e5;
+  margin: 0 auto;
+}
+
+.Line{
+  border: 1px solid #e5e5e5;
+  background: #f4f4f4;
+  height: 30rpx;
+}
+.merchant_information{
+  width: 90%;
+  margin:0 auto;
+}
+.merchant_top{
+  border-top: 1px solid #e5e5e5;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.merchant_top:first-child{
+  border-top:none;
+}
+.merchant_top .title{
+  font-size: 32rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+.merchant_top input{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 28rpx;
+}
+
+.merchant_top .address{
+  font-size: 28rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.merchant_textarea{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.merchant_textarea .section{
+  border: 1px solid #e5e5e5;
+  height: 120rpx;
+  font-size: 32rpx;
+}
+
+.btn_primary{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30rpx;
+  
+}
+
+.btn_submit{
+font-size: 32rpx;
+}
+
+.btn_skip{
+  margin-top: 25rpx;
+  font-size: 32rpx;
+}
+
+.footer{
+  width: 90%;
+  margin: 0 auto; 
+  text-align: center;
+  padding-top: 30rpx;
+}
+.footer image{
+  width: 39rpx;
+  height: 39rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.footer text{
+  font-size: 28rpx;
+  display: inline-block;
+  vertical-align: middle;
+}

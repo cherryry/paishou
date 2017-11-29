@@ -1,0 +1,48 @@
+<view class="container">
+<!-- 认证流程 -->
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_done.png"></image>    
+    <view class="title">  
+    手机验证</view>
+  </view>
+  <view class="flow_line">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_done.png"></image>
+    <view class="title">  
+    商户认证</view>
+  </view>
+  <view class="flow_line">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_done.png"></image>
+    <view class="title">  
+    年费缴纳</view>
+  </view>
+  <view class="flow_dashed">　</view>
+  <view class="contents">
+    <image class="img_txt" src="/images/icon_fb.png"></image>
+    <view class="title">  
+    立即发布</view>
+  </view>  
+</view>
+
+<view class="Line">　</view>
+
+<view class="pay_text">
+  <image src="/images/icon_celebrate.png"></image>
+  <text class="success_text">缴纳成功！</text>
+  <text class="pay_text">快去发布第一条信息/活动吧！</text>
+</view>
+
+
+<view class="btn_primary">
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" class="btn_submit" bindtap="primary"> 提 交 认 证 </button>
+  <button type="default" class="btn_skip" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 跳 过 认 证 </button>
+</view>
+
+
+<view class='footer'>
+  <image src='/images/icon_tip.png'></image>
+  <text>商户必须通过认证才能发布信息</text>
+</view>

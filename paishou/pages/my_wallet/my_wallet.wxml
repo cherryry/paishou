@@ -1,0 +1,45 @@
+<!--pages/my_wallet/my_wallet.wxml-->
+<view class='bigBox'>
+  <!--username  -->
+  <view class='secondBox'>
+    <view>
+      <text class='dot'></text>
+      <text class='userName'>持卡人姓名</text>
+    </view>
+    <view class='inputBox'>
+      <input class='Input'></input>
+    </view>
+  </view>
+  <!--输入银行卡号  -->
+  <view class='secondBox'>
+    <view>
+      <text class='dot'></text>
+      <text class='userName'>银行卡号</text>
+    </view>
+    <view class='inputBox'>
+      <input class='Input' type='number' bindinput='BankCardNoInput' value='{{userInputCardNo}}'></input>
+    </view>
+  </view>
+  <!--提现金额  -->
+  <view class='secondBox'>
+    <view>
+      <text class='dot'></text>
+      <text class='userName'>提现金额</text>
+    </view>
+    <view class='inputBox'>
+      <input class='Input' type='number'></input>
+      <view class='promptBox'>
+        <text>钱包余额</text>
+        <text class='money'>￥{{money}}元</text>
+        <text>今日可提上限:1000.00元</text>
+      </view>
+    </view>
+  </view>
+  <view class='btnBox'>
+    <button class='btn'>申请提现</button>
+    <view class='subTextBox'>
+      <image src='/images/icon_tips@3x.png' class='tips'></image>
+      <text class='subText' decode="{{true}}">提交申请1-3个工作日后\n&nbsp;将转账至您的银行账户</text>
+    </view>
+  </view>
+</view>

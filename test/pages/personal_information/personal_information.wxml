@@ -1,0 +1,42 @@
+<!--pages/personal_information/personal_information.wxml-->
+<view class='container clearfix' bindtap='modifyAvatar'>
+  <view class='fl'>
+    <text class='textTitle'>头像</text>
+  </view>
+  <view class='fr'>
+    <image src='{{avatarUrl}}' class='avatar'></image>
+    <image src='/images/icon_arrowright@3x.png' class='arrow arrow1'></image>
+  </view>
+</view>
+<view class='container clearfix' bindtap='modifyName'>
+  <view class='fl' >
+    <text class='textTitle'>用户名</text>
+  </view>
+  <view class='fr'>
+    <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+  </view>
+</view>
+<view class='container clearfix' bindtap='selfItd'>
+  <view class='fl'>
+    <text class='textTitle'>个人介绍</text>
+  </view>
+  <view class='fr'>
+    <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+  </view>
+</view>
+<view class='container clearfix'>
+  <view class='fl'>
+    <text class='textTitle'>账号管理</text>
+  </view>
+  <view class='fr'>
+    <text class='notCertified'>未认证</text>
+    <image src='/images/icon_arrowright@3x.png' class='arrow'></image>
+  </view>
+</view>
+<view class='show' wx:if="{{active}}" bindtap='isShow'></view>
+<view class='showBox' wx:if="{{active}}">
+  <view class='photo' bindtap='bindViewTap'>拍照</view>
+  <view class='photo' bindtap='bindViewTap'>从手机相册选择</view>
+  <view class='bg'></view>
+  <view class='photo' bindtap='isShow'>取消</view>
+</view>

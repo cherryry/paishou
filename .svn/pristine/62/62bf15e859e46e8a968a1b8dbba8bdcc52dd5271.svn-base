@@ -1,0 +1,106 @@
+.content{
+  overflow-y:hidden;
+  padding-bottom: 120rpx;
+}
+.wallet{
+  background: -webkit-linear-gradient(left,#6ab79f,#7885b4);  
+  background: -o-linear-gradient(right,#6ab79f,#7885b4);  
+  background: -moz-linear-gradient(right,#6ab79f,#7885b4);  
+  background: -mos-linear-gradient(right,#6ab79f,#7885b4);  
+  background: linear-gradient(right,#6ab79f,#7885b4);  
+  height: 300rpx;
+  border-bottom: 30rpx solid #efeff4;
+}
+.wallet_top{
+  width: 100%;
+  text-align: center;
+}
+.wallet_top .title{
+  font-size: 28rpx;
+  color: #ffffff;
+  display: block;
+  padding: 80rpx 0 30rpx 0;
+}
+.wallet_top .number{
+  font-size: 52rpx;
+  color: #ffffff;
+  font-weight:bold;
+}
+.record{
+  width: 90%;
+  margin: 0 auto;
+}
+.consume{
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 35rpx 0 35rpx 0;
+}
+.consume image{
+  width: 36rpx;
+  height: 45rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.consume text{
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  color: #888888;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cost_list{
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  margin: 0 auto;
+  padding: 20rpx 0 20rpx 0;
+}
+.cost_title{
+  width: 90%;
+  margin: 0 auto;
+}
+.cost_title .spot{ 
+  width: 11rpx;
+  height: 11rpx;
+  background: #64cb97;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cost_title .title{
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+}
+.cost_title .number{
+  width: 20%;
+  font-size: 32rpx;
+  font-weight:bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cost_time{
+  width: 90%;
+  font-size: 28rpx;
+  color: #aeaeae;
+  margin: 0 auto;
+}
+.time{
+  font-size: 28rpx;
+  color: #aeaeae;
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}
+.btn_withdrawals{
+  background: #64cb97;
+  height: 100rpx;
+  color: #ffffff;
+  border-radius:inherit;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}

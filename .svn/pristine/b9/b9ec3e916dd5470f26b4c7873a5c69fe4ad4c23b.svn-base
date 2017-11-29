@@ -1,0 +1,134 @@
+/* 列表 */
+.controls{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #e2e2e2;
+}
+.cont_top{
+  width: 90%;  
+  margin:0 auto;
+  padding-top: 22rpx;
+}
+.cont_top .top_left{
+  text-align: left;
+  display: inline-block;
+  vertical-align:middle;
+}
+.cont_top .top_left image{
+  width: 60rpx;
+  height: 60rpx;
+  text-align: left;
+  display: inline-block;
+  vertical-align:middle;
+}
+.cont_top .top_left text{
+  font-size: 32rpx;
+  color: #F36B61;
+  display: inline-block;
+  vertical-align:middle; 
+  margin-left: 10rpx;
+}
+.cont_top .top_right{
+  width: 54rpx;
+  height: 42rpx;
+  text-align:right;
+  float: right;
+}
+.cont_top .top_right image{
+  width: 54rpx;
+  height: 42rpx;
+  text-align: right;
+  padding-top: 10rpx;
+}
+.business{
+  position: relative;
+  overflow-y:auto;
+}
+.business_list {
+  width: 90%;
+  margin: 25rpx auto;
+  height: 180rpx;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.list_left {
+  display: inline-block;
+  width: 25%;
+}
+
+.list_left image {
+  width: 109rpx;
+  height: 109rpx;
+  display: block;
+  text-align: center;
+}
+
+.list_left text {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 26rpx;
+  font-weight: 600;
+  line-height: 60rpx;
+}
+
+.list_middle {
+  width: 53%;
+  text-align: left;
+  display: inline-block;
+}
+
+.list_middle .middle_title {
+  font-size: 30rpx;
+  font-weight: 600;
+  letter-spacing: 1rpx;
+  padding-bottom: 50rpx;  
+}
+
+.list_middle .extension { 
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.list_middle .extension .extension_title {
+  text-align: left;
+  display: inline-block;
+  color: #888;
+  padding-top: 15px;
+}
+
+.list_middle .extension .extension_Number {
+  display: inline-block;
+  color: #000;
+}
+
+.list_middle .commission {
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.list_middle .commission .commission_title {
+  display: inline-block;
+  color: #888;
+}
+
+.list_middle .commission .commission_Number {
+  display: inline-block;
+  color: #6372a9;
+}
+
+.list_right {
+  padding-top: 63rpx;
+  width: 22%;
+  display: inline-block;
+}
+
+.list_right .btn_grab {
+  font-size: 28rpx;
+  color: #6372a9;   
+  border: 1px solid #394779;
+  border-radius: 10rpx;
+  background: #fff;
+  font-weight: 600;
+  line-height: 50rpx;
+}

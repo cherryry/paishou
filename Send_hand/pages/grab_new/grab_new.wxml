@@ -1,0 +1,61 @@
+<!--pages/grab/grab.wxml-->
+<view>
+  <view class='postionBox'>
+    <image class='bgImg' src='/images/banner@3x.png' mode="{{item.mode}}" class='banner'></image>
+    <image src='/images/banner_putin@3x.png' class='introductionImg'></image>
+    <view class='introductionTextF'>
+      <text class='introductionText1'>小棕瓶系列8.8折优惠小棕瓶系列8.8折优惠优惠优惠优惠优惠</text>
+    </view>
+    <view class='hx'></view>
+    <text class='introductionTime'>2017.11.20-2017.12.20</text>
+  </view>
+  <!--推广逾期  -->
+  <view class='bottomTitleBox'>
+    <view class='bottomTitle'>
+      <view class='br bottomTextBox3'>
+        <text>推广预期 </text>
+        <text class='howText'>2000人</text>
+      </view>
+
+      <view class='bottomTextBox3'>
+        <text class='ml'>悬赏佣金</text>
+        <text class='moneyText'>0.1元/次</text>
+      </view>
+    </view>
+  </view>
+  <!--介绍  -->
+  <view class='contentBox'>
+    <text class='content'>年轻挚选，肌因级修护，定格年轻时光。肌肤紧弹亮润年轻挚选，肌因级修护，定格年轻时光。内蕴CHRONOLUXCB™ 科技，修护深达肌因 。激发肌肤自身修护力，配合肌因生物钟同步修护科技，帮助肌肤在夜间深层修护，重启年轻修护力，抵御各种外界环境损伤。小棕瓶浓缩黄金修护精华，释放你的年轻，肌肤紧弹亮润！</text>
+  </view>
+  <!--点赞  -->
+  <view class='t-l-c-f-box'>
+    <view class='allBox'>
+      <image src='/images/icon_repost@3x.png' class='ico-img'></image>
+      <text class='ico-text'>200</text>
+    </view>
+    <view class='commentImgBox'>
+      <image src='/images/img_person@3x.png' class='commentImg'></image>
+      <image src='/images/img_person@3x.png' class='commentImg'></image>
+      <image src='/images/img_person@3x.png' class='commentImg'></image>
+      <image src='/images/img_person@3x.png' class='commentImg'></image>
+      <image src='/images/img_person@3x.png' class='commentImg'></image>
+      <image src='/images/img_person@3x.png' class='commentImg'></image>
+
+    </view>
+  </view>
+  <!--优惠券  -->
+  <view class='couponBox'>
+    <view class='coupon'>
+      <image src='/images/img_bg_quan@3x.png' class='couponImg'></image>
+      <view class='couponContent'>
+        <text class='symbol'>￥</text>
+        <text class='moneyMany'>10</text>
+        <text class='condition'>满60元可抵扣</text>
+        <text class='couponText'>优惠券</text>
+        <button class='btn'>立即领取</button>
+        <text class='couponTime'>有效期 2017.11.20 — 2017.11.30</text>
+      </view>
+    </view>
+  </view>
+  <button class='grabBtn'>抢单</button>
+</view>

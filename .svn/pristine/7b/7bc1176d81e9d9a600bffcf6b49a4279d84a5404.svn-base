@@ -1,0 +1,39 @@
+<!--pages/pay_Commission/pay_Commission.wxml-->
+<view class='bigBox'>
+  <view class='bg'></view>
+  <view class='box'>
+    <view class='secondBox'>
+      <text class='firstText'>推广预期   </text>
+      <text class='secondText'>(条)</text>
+      <image src='/images/icon_minus@3x.png' class='reduceBtn' bindtap='delMoney'></image>
+      <input value='{{inputValue}}' class='expectInput' bindblur = "inputEvent" type='number'></input>
+      <image src='/images/icon_plus@3x.png' class='addBtn' bindtap='addMoney'></image>
+      <view></view>
+    </view>
+  </view>
+  <view class='box'>
+    <view class='secondBox borderNo'>
+      <text class='firstText'>悬赏佣金</text>
+      <text class='secondText'>(元/条)</text>
+      <image src='/images/icon_minus@3x.png' class='reduceBtn' id='secondReduce' bindtap = 'delMoney2'></image>
+      <input value='{{inputValue2}}' class='expectInput' bindblur  = "inputEvent2" type='number'></input>
+      <image src='/images/icon_plus@3x.png' class='addBtn' bindtap='addMoney2'></image>
+      <view></view>
+    </view>
+  </view>
+
+  <view class='bg2'></view>
+  <view class='box'>
+    <view class='secondBox pay'>
+      <text class='payOne'>支付金额</text>
+      <text class='payTow' bindtap='payAmount'>{{(num+num2) ?(num+num2):0}}元</text>
+    </view>
+  </view>
+  <view class='borderBM'></view>
+  <view class='payBtnBox'>
+    <button class='payBtn' >确认支付</button>
+  </view>
+</view>
+<view>
+  <image src='/images/img_shuiyin@3x.png' class='bgImg'></image>
+</view>
